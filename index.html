@@ -17,7 +17,7 @@
 	<meta name="twitter:description" content="搭建CF节点的第一站">	
     <title>CF EDT 导航 | EDT AIO NAV - BestCF.pages.dev | Cloudflare EdgeTunnel</title>
 	<style>
-		:root { --bg-color: #0f172a; --card-bg: rgba(30, 41, 59, 0.5); --accent-blue: #3b82f6; --text-main: #f1f5f9; --text-muted: #94a3b8; --border-color: rgba(255, 255, 255, 0.08); --code-bg: rgba(15, 23, 42, 0.5); }
+		:root { --bg-color: #0f172a; --card-bg: rgba(24, 36, 56, 0.68); --accent-blue: #3b82f6; --text-main: #f1f5f9; --text-muted: #94a3b8; --border-color: rgba(255, 255, 255, 0.08); --code-bg: rgba(15, 23, 42, 0.5); }
 		* { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
 		body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background-color: var(--bg-color); background-image: radial-gradient(circle at 50% 0%, rgba(59, 130, 246, 0.18) 0%, transparent 600px); background-repeat: no-repeat; color: var(--text-main); line-height: 1.6; padding: 50px 20px; }
 		.container { max-width: 850px; margin: 0 auto; }
@@ -48,7 +48,17 @@
 		@keyframes glow-breath { 0%, 100% { box-shadow: 0 0 5px #3b82f688; filter: brightness(1); } 50% { box-shadow: 0 0 25px #3b82f6, 0 0 10px #3b82f6; filter: brightness(1.3); } }
 		h2.breath::before { animation: glow-breath 4s ease-in-out infinite !important; }
 		#edt-url-input,#edt-pwd-input,.more-url-input,.more-pwd-input{background:transparent!important;border:none!important;width:100%!important;outline:none!important;color:var(--text-muted)!important;font-family:inherit!important;font-size:14px!important;-webkit-text-fill-color:var(--text-muted)!important;padding-right:28px}#edt-url-input::placeholder,#edt-pwd-input::placeholder,.more-url-input::placeholder,.more-pwd-input::placeholder{color:var(--text-muted)!important;font-size:14px!important;opacity:0.6}.clear-btn-common{color: var(--text-muted);  fill: var(--text-muted); position:absolute;right:8px;top:50%;transform:translateY(-50%);cursor:pointer;display:none;opacity:0.6;line-height:0;transition:opacity .2s;z-index:5}.clear-btn-common:hover{opacity:1}.url-box{flex:1;background-color:var(--code-bg);padding:0 16px;height:42px;border-radius:8px;border:1px solid rgba(255,255,255,.05);display:flex;align-items:center;position:relative}.add-more-btn{margin-top:15px;background:transparent;color:var(--text-muted);border:1px dashed var(--border-color);width:100%;height:40px;border-radius:8px;cursor:pointer;font-size:.85rem;transition:.3s;display:flex;align-items:center;justify-content:center;gap:5px}.add-more-btn:hover{border-color:var(--accent-blue);color:var(--accent-blue);background:rgba(59,130,246,.05)}
-		.bottom-nav-container{position:fixed;bottom:30px;left:50%;transform:translateX(-50%);z-index:9999;width:100%;max-width:860px;display:flex;justify-content:center;pointer-events:none;box-sizing:border-box}.nav-bar{display:flex;align-items:center;background:rgba(15,23,42,0.3);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);padding:5px;border-radius:50px;border:1px solid rgba(255,255,255,0.08);box-shadow:0 12px 40px rgba(0,0,0,0.5);position:relative;overflow-x:auto;overflow-y:hidden;scrollbar-width:none;-ms-overflow-style:none;pointer-events:auto;width:fit-content;max-width:calc(100% - 40px);justify-content:flex-start;cursor:grab}.nav-bar:active{cursor:grabbing}.nav-bar::-webkit-scrollbar{display:none}.nav-item{position:relative;padding:8px 24px;color:#94a3b8;text-decoration:none;font-size:0.9rem;font-weight:700;white-space:nowrap;transition:color 0.3s ease;z-index:2;cursor:pointer;flex-shrink:0}.nav-item.active{color:#fff}.nav-indicator{position:absolute;height:calc(100% - 10px);top:5px;left:0;background:linear-gradient(135deg,#3b82f6 0%,#1d4ed8 100%);border-radius:50px;transition:all 0.5s cubic-bezier(0.16,1,0.3,1);z-index:1;box-shadow:0 4px 20px rgba(59,130,246,0.5);will-change:left,width;backface-visibility:hidden}
+		.bottom-nav-container{position:fixed;bottom:30px;left:50%;transform:translateX(-50%);z-index:9999;width:100%;max-width:860px;display:flex;justify-content:center;pointer-events:none;box-sizing:border-box;padding:0 20px}
+		.nav-wrapper{display:flex;align-items:stretch;gap:12px;pointer-events:auto;max-width:100%;min-width:0}
+		.refresh-btn{display:flex;align-items:center;justify-content:center;background:rgba(15,23,42,0.3);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border:1px solid rgba(255,255,255,0.08);box-shadow:0 12px 40px rgba(0,0,0,0.5);border-radius:50px;padding:8px 30px;color:#94a3b8;font-size:0.9rem;font-weight:700;white-space:nowrap;cursor:pointer;transition:color 0.3s ease,background 0.3s ease,box-shadow 0.3s ease;flex-shrink:0;line-height:1.5;user-select:none}
+		.refresh-btn:hover{color:#fff;background:rgba(59,130,246,0.25);box-shadow:0 0 20px rgba(59,130,246,0.4)}
+		.refresh-btn:active{transform:scale(0.96)}
+		.nav-bar{display:flex;align-items:center;background:rgba(15,23,42,0.3);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);padding:5px;border-radius:50px;border:1px solid rgba(255,255,255,0.08);box-shadow:0 12px 40px rgba(0,0,0,0.5);position:relative;overflow-x:auto;overflow-y:hidden;scrollbar-width:none;-ms-overflow-style:none;pointer-events:auto;width:fit-content;max-width:100%;justify-content:flex-start;cursor:grab;flex-shrink:1;min-width:0}
+		.nav-bar:active{cursor:grabbing}
+		.nav-bar::-webkit-scrollbar{display:none}
+		.nav-item{position:relative;padding:8px 24px;color:#94a3b8;text-decoration:none;font-size:0.9rem;font-weight:700;white-space:nowrap;transition:color 0.3s ease;z-index:2;cursor:pointer;flex-shrink:0}
+		.nav-item.active{color:#fff}
+		.nav-indicator{position:absolute;height:calc(100% - 10px);top:5px;left:0;background:linear-gradient(135deg,#3b82f6 0%,#1d4ed8 100%);border-radius:50px;transition:all 0.5s cubic-bezier(0.16,1,0.3,1);z-index:1;box-shadow:0 4px 20px rgba(59,130,246,0.5);will-change:left,width;backface-visibility:hidden}
 		@media (hover: none) { .footer-button:hover, .copy-btn:hover, .open-btn:hover, .add-more-btn:hover { background: rgba(59, 130, 246, 0.15) !important; transform: none !important; box-shadow: none !important; color: var(--accent-blue) !important; } .footer-button:hover { color: #fff !important; } }
 		.footer-button{background:linear-gradient(135deg,#3b82f6 0%,#1d4ed8 100%);color:#fff;padding:12px 28px;border-radius:50px;text-decoration:none;font-weight:700;font-size:.95rem;box-shadow:0 4px 15px rgba(59,130,246,.4);transition:transform .2s,box-shadow .2s;display:inline-block}.footer-button:hover{transform:translateY(-2px);box-shadow:0 6px 20px rgba(59,130,246,.6)}
 		#customProxyInput::placeholder {color: #94a3b8 !important;opacity: 1;}
@@ -58,24 +68,28 @@
 </head>
 <body id="bodyTop">
 <div class="bottom-nav-container">
-    <div class="nav-bar" id="bottomNav">
-        <div class="nav-indicator" id="indicator"></div>
-        <a href="#bodyTop" class="nav-item active">顶部</a>
-        <!-- <a href="#hxjb" class="nav-item">混淆脚本</a> --> 
-        <a href="#edtfsb" class="nav-item">封神</a>
-        <a href="#jiaocheng" class="nav-item">教程</a>
-        <a href="#yxym" class="nav-item">优选</a>
-        <!-- <a href="#yxym" class="nav-item">优选域名</a> -->
-        <!-- <a href="#yxip" class="nav-item">优选IP</a> -->
-        <!-- <a href="#yxgj" class="nav-item">优选工具</a> -->
-        <a href="#jcgj" class="nav-item">检测</a>
-		<!-- <a href="#csgj" class="nav-item">测速</a> -->
-        <a href="#gzj" class="nav-item">规则</a>
-        <a href="#dyzh" class="nav-item">转换</a>
-        <a href="#gdgj" class="nav-item">更多</a>
-		<a href="#cfgf" class="nav-item">官方</a>
-        <a href="#khd" class="nav-item">应用</a>
-        <!-- <a href="#wtfk" class="nav-item">问题反馈</a> -->
+    <div class="nav-wrapper">
+        <!-- <div class="refresh-btn" id="refreshBtn" title="刷新页面">刷新</div> -->
+        <div class="nav-bar" id="bottomNav">
+            <div class="nav-indicator" id="indicator"></div>
+            <a href="#bodyTop" class="nav-item active">顶部</a>
+			<!-- <a href="#hxjb" class="nav-item">混淆脚本</a> --> 
+			<a href="#edtfsb" class="nav-item">脚本</a>
+			<a href="#jiaocheng" class="nav-item">教程</a>
+			<a href="#yxym" class="nav-item">优选</a>
+			<!-- <a href="#yxym" class="nav-item">优选域名</a> -->
+			<!-- <a href="#yxip" class="nav-item">优选IP</a> -->
+			<!-- <a href="#yxgj" class="nav-item">优选工具</a> -->
+			<a href="#jcgj" class="nav-item">检测</a>
+			<!-- <a href="#csgj" class="nav-item">测速</a> -->
+			<a href="#gzj" class="nav-item">规则</a>
+			<a href="#dyzh" class="nav-item">转换</a>
+			<a href="#gdgj" class="nav-item">更多</a>
+			<!-- <a href="#cfgf" class="nav-item">官方</a> -->
+			<a href="#khd" class="nav-item">应用</a>
+			<!-- <a href="#wtfk" class="nav-item">问题反馈</a> -->
+		</div>
+		<div class="refresh-btn" id="refreshBtn" title="刷新页面">刷新</div>
     </div>  
 </div>
     <div class="container">
@@ -88,7 +102,7 @@
             <div class="notice-mini-card">
                 <b style="color: var(--text-main); margin-right: 8px;">最近更新</b>
                 <!-- <span style="color: var(--border-color); margin: 0 8px;">|</span> -->
-                <div class="notice-list"><span>Net.Coffee</span><span>鸿蒙原生魔法x5</span><span>国内外DoH合集</span><span>WARP段迷你优选</span><span>MASQUE导航</span><span>ECH域名合集</span><span>ProxyIP合集</span></div>
+                <div class="notice-list"><span>SpeedTest企业版</span><span>CFNext脚本</span><span>WARP导航</span><span>鸿蒙原生魔法x5</span><span>WARP段迷你优选</span><span>ECH域名合集</span><span>ProxyIP合集</span></div>
             </div>
             <div class="group-card">
                 <div class="item-header"><span class="item-title">Cloudflare 管理面板</span><span class="tag tag-featured">互联网大善人</span></div>
@@ -245,7 +259,7 @@
 		</section>
 
         <section id="edtfsb">
-            <h2 class="breath">EDT 封神榜</h2>
+            <h2 class="breath">EDT 脚本</h2>
             <div class="group-card">
                 <div class="item-header"><span class="item-title">zizifn</span><span class="tag">EDT鼻祖</span><span class="tag">适用底层协议研究</span></div>
                 <div class="item-desc">第一个系统性地在Workers环境中实现VLESS</div>
@@ -273,7 +287,7 @@
                 </div>
             </div>
             <div class="group-card">
-                <div class="item-header"><span class="item-title">BPB</span><span class="tag">变革者</span><span class="tag">完全可定制</span></div>
+                <div class="item-header"><span class="item-title">BPB</span><span class="tag">变革者</span><span class="tag">可定制</span></div>
                 <div class="item-desc">第一个将配置项做成可视化图形界面面板</div>
                 <div class="action-area">
                     <div class="url-box"><span class="url-text">github.com/bia-pain-bache/BPB-Worker-Panel</span></div>
@@ -290,13 +304,21 @@
                 </div>
             </div>
             <div class="group-card">
-                <div class="item-header"><span class="item-title">Joey</span><span class="tag">极客先锋</span><span class="tag">适合折腾</span><span class="tag tag-featured">推荐</span></div>
+                <div class="item-header"><span class="item-title">Joey</span><span class="tag">极客先锋</span><span class="tag">适合折腾</span></div>
                 <div class="item-desc">第一个发布Snippets脚本和整合多个新特性</div>
                 <div class="action-area">
                     <div class="url-box"><span class="url-text">github.com/byjoey/cfnew</span></div>
                     <a href="https://github.com/byjoey/cfnew" class="open-btn" target="_blank">打开链接</a>
                 </div>
             </div>
+            <div class="group-card">
+                <div class="item-header"><span class="item-title">CFNext</span><span class="tag">快速上手</span><span class="tag tag-featured">NEW</span></div>
+                <div class="item-desc">简约易懂 / 整合多个优选源</div>
+                <div class="action-area">
+                    <div class="url-box"><span class="url-text">github.com/PAICNI/CFNext</span></div>
+                    <a href="https://github.com/PAICNI/CFNext" class="open-btn" target="_blank">打开链接</a>
+                </div>
+            </div>			
         </section>
 
         <!-- <section id="hxjb"> -->
@@ -563,14 +585,14 @@
                     <button class="copy-btn" onclick="copy(this, 'https://bestcf.pages.dev/domain/senflare/all.txt')">复制链接</button>
                 </div>
             </div>
-            <div class="group-card">
-                <div class="item-header"><span class="item-title">WuYa</span></div>
-                <div class="action-area">
-                    <div class="url-box"><span class="url-text">https://bestcf.pages.dev/domain/wuya/all.txt</span>
-                    </div>
-                    <button class="copy-btn" onclick="copy(this, 'https://bestcf.pages.dev/domain/wuya/all.txt')">复制链接</button>
-                </div>
-            </div>			
+            <!-- <div class="group-card"> -->
+                <!-- <div class="item-header"><span class="item-title">WuYa</span></div> -->
+                <!-- <div class="action-area"> -->
+                    <!-- <div class="url-box"><span class="url-text">https://bestcf.pages.dev/domain/wuya/all.txt</span> -->
+                    <!-- </div> -->
+                    <!-- <button class="copy-btn" onclick="copy(this, 'https://bestcf.pages.dev/domain/wuya/all.txt')">复制链接</button> -->
+                <!-- </div> -->
+            <!-- </div>			 -->
             <div class="group-card">
                 <div class="item-header"><span class="item-title">IRCF</span></div>
                 <div class="action-area">
@@ -579,15 +601,15 @@
                     <button class="copy-btn" onclick="copy(this, 'https://bestcf.pages.dev/domain/ircf/all.txt')">复制链接</button>
                 </div>
             </div>			
-            <div class="group-card">
-                <div class="item-header"><span class="item-title">高访问量域名</span><span class="tag">未长期监测效果</span></div>
-                <div class="item-desc">如何扫描全网域名详见"优选工具-域名库"</div>
-                <div class="action-area">
-                    <div class="url-box"><span class="url-text">https://bestcf.pages.dev/domain/Domain-TOP.txt</span>
-                    </div>
-                    <button class="copy-btn" onclick="copy(this, 'https://bestcf.pages.dev/domain/Domain-TOP.txt')">复制链接</button>
-                </div>
-            </div>
+            <!-- <div class="group-card"> -->
+                <!-- <div class="item-header"><span class="item-title">高访问量域名</span><span class="tag">未长期监测效果</span></div> -->
+                <!-- <div class="item-desc">如何扫描全网域名详见"优选工具-域名库"</div> -->
+                <!-- <div class="action-area"> -->
+                    <!-- <div class="url-box"><span class="url-text">https://bestcf.pages.dev/domain/Domain-TOP.txt</span> -->
+                    <!-- </div> -->
+                    <!-- <button class="copy-btn" onclick="copy(this, 'https://bestcf.pages.dev/domain/Domain-TOP.txt')">复制链接</button> -->
+                <!-- </div> -->
+            <!-- </div> -->
         </section>
 
         <section id="yxip">
@@ -611,18 +633,25 @@
                     <button class="copy-btn" onclick="copy(this, 'https://bestcf.pages.dev/uouin/all.txt')">复制链接</button>
                 </div>
             </div>			           
-			<div class="group-card">
-                <div class="item-header"><span class="item-title">Mia</span><span class="tag">每半小时更新</span></div>
-                <div class="action-area">
-                    <div class="url-box"><span class="url-text">https://bestcf.pages.dev/xinyitang3/ipv4.txt</span></div>
-                    <button class="copy-btn" onclick="copy(this, 'https://bestcf.pages.dev/xinyitang3/ipv4.txt')">复制链接</button>
-                </div>
-            </div>	
             <div class="group-card">
                 <div class="item-header"><span class="item-title">LuoLi</span><span class="tag">每小时更新</span></div>
                 <div class="action-area">
                     <div class="url-box"><span class="url-text">https://bestcf.pages.dev/luoli/all.txt</span></div>
                     <button class="copy-btn" onclick="copy(this, 'https://bestcf.pages.dev/luoli/all.txt')">复制链接</button>
+                </div>
+            </div>	
+            <div class="group-card">
+                <div class="item-header"><span class="item-title">LZJ</span><span class="tag">早中晚更新</span><span class="tag">含IPv6</span></div>
+                <div class="action-area">
+                    <div class="url-box"><span class="url-text">https://bestcf.pages.dev/lzj/all.txt</span></div>
+                    <button class="copy-btn" onclick="copy(this, 'https://bestcf.pages.dev/lzj/all.txt')">复制链接</button>
+                </div>
+            </div>
+			<div class="group-card">
+                <div class="item-header"><span class="item-title">Mia</span><span class="tag">每半小时更新</span></div>
+                <div class="action-area">
+                    <div class="url-box"><span class="url-text">https://bestcf.pages.dev/xinyitang3/ipv4.txt</span></div>
+                    <button class="copy-btn" onclick="copy(this, 'https://bestcf.pages.dev/xinyitang3/ipv4.txt')">复制链接</button>
                 </div>
             </div>			
 			<div class="group-card">
@@ -701,75 +730,16 @@
                         <button class="copy-btn" onclick="copy(this, 'https://bestcf.pages.dev/tiancheng/us.txt')">复制链接</button>
                     </div>
                 </div>
-                <!-- <div class="link-row"> -->
-                    <!-- <div class="item-header"><span class="item-title">中国台湾 TW</span></div> -->
-                    <!-- <div class="action-area"> -->
-                        <!-- <div class="url-box"><span class="url-text">https://bestcf.pages.dev/tiancheng/tw.txt</span> -->
-                        <!-- </div> -->
-                        <!-- <button class="copy-btn" -->
-                            <!-- onclick="copy(this, 'https://bestcf.pages.dev/tiancheng/tw.txt')">复制链接</button> -->
-                    <!-- </div> -->
-                <!-- </div>				 -->
-            </div>					
-			<div class="group-card">
-                <div class="group-name">S5公益<span class="tag">每日更新</span></div>
                 <div class="link-row">
-                    <div class="item-header"><span class="item-title">多地区全量版</span></div>
+                    <div class="item-header"><span class="item-title">中国台湾 TW</span></div>
                     <div class="action-area">
-                        <div class="url-box"><span class="url-text">https://bestcf.pages.dev/s5gy/all.txt</span></div>
-                        <button class="copy-btn" onclick="copy(this, 'https://bestcf.pages.dev/s5gy/all.txt')">复制链接</button>
+                        <div class="url-box"><span class="url-text">https://bestcf.pages.dev/tiancheng/tw.txt</span>
+                        </div>
+                        <button class="copy-btn"
+                            onclick="copy(this, 'https://bestcf.pages.dev/tiancheng/tw.txt')">复制链接</button>
                     </div>
-                </div>
-                <div class="link-row">
-                    <div class="item-header"><span class="item-title">多地区迷你版</span></div>
-                    <div class="action-area">
-                        <div class="url-box"><span class="url-text">https://bestcf.pages.dev/s5gy/mini.txt</span></div>
-                        <button class="copy-btn" onclick="copy(this, 'https://bestcf.pages.dev/s5gy/mini.txt')">复制链接</button>
-                    </div>
-                </div>
-                <div class="link-row">
-                    <div class="item-header"><span class="item-title">中国香港 HK</span></div>
-                    <div class="action-area">
-                        <div class="url-box"><span class="url-text">https://bestcf.pages.dev/s5gy/hk.txt</span></div>
-                        <button class="copy-btn" onclick="copy(this, 'https://bestcf.pages.dev/s5gy/hk.txt')">复制链接</button>
-                    </div>
-                </div>
-                <div class="link-row">
-                    <div class="item-header"><span class="item-title">新加坡 SG</span></div>
-                    <div class="action-area">
-                        <div class="url-box"><span class="url-text">https://bestcf.pages.dev/s5gy/sg.txt</span></div>
-                        <button class="copy-btn" onclick="copy(this, 'https://bestcf.pages.dev/s5gy/sg.txt')">复制链接</button>
-                    </div>
-                </div>
-                <div class="link-row">
-                    <div class="item-header"><span class="item-title">日本 JP</span></div>
-                    <div class="action-area">
-                        <div class="url-box"><span class="url-text">https://bestcf.pages.dev/s5gy/jp.txt</span></div>
-                        <button class="copy-btn" onclick="copy(this, 'https://bestcf.pages.dev/s5gy/jp.txt')">复制链接</button>
-                    </div>
-                </div>
-                <!-- <div class="link-row"> -->
-                    <!-- <div class="item-header"><span class="item-title">韩国 KR</span></div> -->
-                    <!-- <div class="action-area"> -->
-                        <!-- <div class="url-box"><span class="url-text">https://bestcf.pages.dev/s5gy/kr.txt</span></div> -->
-                        <!-- <button class="copy-btn" onclick="copy(this, 'https://bestcf.pages.dev/s5gy/kr.txt')">复制链接</button> -->
-                    <!-- </div> -->
-                <!-- </div> -->
-                <div class="link-row">
-                    <div class="item-header"><span class="item-title">美国 US</span></div>
-                    <div class="action-area">
-                        <div class="url-box"><span class="url-text">https://bestcf.pages.dev/s5gy/us.txt</span></div>
-                        <button class="copy-btn" onclick="copy(this, 'https://bestcf.pages.dev/s5gy/us.txt')">复制链接</button>
-                    </div>
-                </div>
-                <!-- <div class="link-row"> -->
-                    <!-- <div class="item-header"><span class="item-title">中国台湾 TW</span></div> -->
-                    <!-- <div class="action-area"> -->
-                        <!-- <div class="url-box"><span class="url-text">https://bestcf.pages.dev/s5gy/tw.txt</span></div> -->
-                        <!-- <button class="copy-btn" onclick="copy(this, 'https://bestcf.pages.dev/s5gy/tw.txt')">复制链接</button> -->
-                    <!-- </div> -->
-                <!-- </div>				 -->
-            </div>			
+                </div>				
+            </div>				
             <div class="group-card">
                 <div class="group-name">Gslege<span class="tag">早中晚更新</span></div>
 
@@ -872,7 +842,66 @@
 						<button class="copy-btn" onclick="copy(this, 'https://addressesapi.090227.xyz/ip.164746.xyz')">复制链接</button>
 					</div>
 				</div>				
-			</div>
+			</div>											
+			<div class="group-card">
+                <div class="group-name">S5公益<span class="tag">每日更新</span></div>
+                <div class="link-row">
+                    <div class="item-header"><span class="item-title">多地区全量版</span></div>
+                    <div class="action-area">
+                        <div class="url-box"><span class="url-text">https://bestcf.pages.dev/s5gy/all.txt</span></div>
+                        <button class="copy-btn" onclick="copy(this, 'https://bestcf.pages.dev/s5gy/all.txt')">复制链接</button>
+                    </div>
+                </div>
+                <div class="link-row">
+                    <div class="item-header"><span class="item-title">多地区迷你版</span></div>
+                    <div class="action-area">
+                        <div class="url-box"><span class="url-text">https://bestcf.pages.dev/s5gy/mini.txt</span></div>
+                        <button class="copy-btn" onclick="copy(this, 'https://bestcf.pages.dev/s5gy/mini.txt')">复制链接</button>
+                    </div>
+                </div>
+                <div class="link-row">
+                    <div class="item-header"><span class="item-title">中国香港 HK</span></div>
+                    <div class="action-area">
+                        <div class="url-box"><span class="url-text">https://bestcf.pages.dev/s5gy/hk.txt</span></div>
+                        <button class="copy-btn" onclick="copy(this, 'https://bestcf.pages.dev/s5gy/hk.txt')">复制链接</button>
+                    </div>
+                </div>
+                <div class="link-row">
+                    <div class="item-header"><span class="item-title">新加坡 SG</span></div>
+                    <div class="action-area">
+                        <div class="url-box"><span class="url-text">https://bestcf.pages.dev/s5gy/sg.txt</span></div>
+                        <button class="copy-btn" onclick="copy(this, 'https://bestcf.pages.dev/s5gy/sg.txt')">复制链接</button>
+                    </div>
+                </div>
+                <div class="link-row">
+                    <div class="item-header"><span class="item-title">日本 JP</span></div>
+                    <div class="action-area">
+                        <div class="url-box"><span class="url-text">https://bestcf.pages.dev/s5gy/jp.txt</span></div>
+                        <button class="copy-btn" onclick="copy(this, 'https://bestcf.pages.dev/s5gy/jp.txt')">复制链接</button>
+                    </div>
+                </div>
+                <!-- <div class="link-row"> -->
+                    <!-- <div class="item-header"><span class="item-title">韩国 KR</span></div> -->
+                    <!-- <div class="action-area"> -->
+                        <!-- <div class="url-box"><span class="url-text">https://bestcf.pages.dev/s5gy/kr.txt</span></div> -->
+                        <!-- <button class="copy-btn" onclick="copy(this, 'https://bestcf.pages.dev/s5gy/kr.txt')">复制链接</button> -->
+                    <!-- </div> -->
+                <!-- </div> -->
+                <div class="link-row">
+                    <div class="item-header"><span class="item-title">美国 US</span></div>
+                    <div class="action-area">
+                        <div class="url-box"><span class="url-text">https://bestcf.pages.dev/s5gy/us.txt</span></div>
+                        <button class="copy-btn" onclick="copy(this, 'https://bestcf.pages.dev/s5gy/us.txt')">复制链接</button>
+                    </div>
+                </div>
+                <!-- <div class="link-row"> -->
+                    <!-- <div class="item-header"><span class="item-title">中国台湾 TW</span></div> -->
+                    <!-- <div class="action-area"> -->
+                        <!-- <div class="url-box"><span class="url-text">https://bestcf.pages.dev/s5gy/tw.txt</span></div> -->
+                        <!-- <button class="copy-btn" onclick="copy(this, 'https://bestcf.pages.dev/s5gy/tw.txt')">复制链接</button> -->
+                    <!-- </div> -->
+                <!-- </div>				 -->
+            </div>				
             <div class="group-card">
                 <div class="group-name">vvHan<span class="tag">每半小时更新</span><span class="tag">分三网</span></div>
 
@@ -890,24 +919,7 @@
                         <button class="copy-btn" onclick="copy(this, 'https://bestcf.pages.dev/vvhan/ipv6.txt')">复制链接</button>
                     </div>
                 </div>
-            </div>			
-			<div class="group-card">
-                <div class="group-name">NiREvil<span class="tag">每天下午更新</span><span class="tag">分三网</span></div>
-                <div class="link-row">
-                    <div class="item-header"><span class="item-title">IPv4</span></div>
-                    <div class="action-area">
-                        <div class="url-box"><span class="url-text">https://bestcf.pages.dev/nirevil/ipv4.txt</span></div>
-                        <button class="copy-btn" onclick="copy(this, 'https://bestcf.pages.dev/nirevil/ipv4.txt')">复制链接</button>
-                    </div>
-                </div>
-                <div class="link-row">
-                    <div class="item-header"><span class="item-title">IPv6</span></div>
-                    <div class="action-area">
-                        <div class="url-box"><span class="url-text">https://bestcf.pages.dev/nirevil/ipv6.txt</span></div>
-                        <button class="copy-btn" onclick="copy(this, 'https://bestcf.pages.dev/nirevil/ipv6.txt')">复制链接</button>
-                    </div>
-                </div>
-            </div>			
+            </div>					
             <div class="group-card">
                 <div class="group-name">MingYu<span class="tag">每小时更新</span></div>
                 <div class="link-row">
@@ -960,27 +972,51 @@
                     <button class="copy-btn" onclick="copy(this, 'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/refs/heads/main/addressesapi.txt')">复制链接</button>
                 </div>
             </div>					
-            <div class="group-card">
-                <div class="item-header"><span class="item-title">Laziji</span><span class="tag">每半小时更新</span></div>
-                <div class="action-area">
-                    <div class="url-box"><span class="url-text">https://bestcf.pages.dev/lzj/all.txt</span></div>
-                    <button class="copy-btn" onclick="copy(this, 'https://bestcf.pages.dev/lzj/all.txt')">复制链接</button>
-                </div>
-            </div>			
-            <div class="group-card">
-                <div class="item-header"><span class="item-title">Lajiao</span><span class="tag">每日更新</span></div>
-                <div class="action-area">
-                    <div class="url-box"><span class="url-text">https://bestcf.pages.dev/lajiao/all.txt</span></div>
-                    <button class="copy-btn" onclick="copy(this, 'https://bestcf.pages.dev/lajiao/all.txt')">复制链接</button>
-                </div>
-            </div>			
-            <div class="group-card">
-                <div class="item-header"><span class="item-title">MoistR</span></div>
-                <div class="action-area">
-                    <div class="url-box"><span class="url-text">https://bestcf.pages.dev/moistr/all.txt</span></div>
-                    <button class="copy-btn" onclick="copy(this, 'https://bestcf.pages.dev/moistr/all.txt')">复制链接</button>
-                </div>
-            </div>											
+			<div class="group-card">
+				<div class="group-name">LancelotRar<span class="tag">每3小时更新</span><span class="tag">采集聚合</span><span class="tag tag-featured">NEW</span></div>
+				<div class="link-row">
+					<div class="item-header"><span class="item-title">默认</span></div>
+					<div class="action-area">
+						<div class="url-box"><span class="url-text">https://raw.githubusercontent.com/LancelotRar/best-cf-ips/refs/heads/main/best-cf-ip-collected.txt</span></div>
+						<button class="copy-btn" onclick="copy(this, 'https://raw.githubusercontent.com/LancelotRar/best-cf-ips/refs/heads/main/best-cf-ip-collected.txt')">复制链接</button>
+					</div>
+				</div>
+				<div class="link-row">
+					<div class="item-header"><span class="item-title">TOP 20</span></div>
+					<div class="action-area">
+						<div class="url-box"><span class="url-text">https://raw.githubusercontent.com/LancelotRar/best-cf-ips/refs/heads/main/best-cf-ip-scanned-top20.txt</span></div>
+						<button class="copy-btn" onclick="copy(this, 'https://raw.githubusercontent.com/LancelotRar/best-cf-ips/refs/heads/main/best-cf-ip-scanned-top20.txt')">复制链接</button>
+					</div>
+				</div>
+				<div class="link-row">
+					<div class="item-header"><span class="item-title">TOP 50</span></div>
+					<div class="action-area">
+						<div class="url-box"><span class="url-text">https://raw.githubusercontent.com/LancelotRar/best-cf-ips/refs/heads/main/best-cf-ip-scanned-top50.txt</span></div>
+						<button class="copy-btn" onclick="copy(this, 'https://raw.githubusercontent.com/LancelotRar/best-cf-ips/refs/heads/main/best-cf-ip-scanned-top50.txt')">复制链接</button>
+					</div>
+				</div>
+				<div class="link-row">
+					<div class="item-header"><span class="item-title">TOP 100</span></div>
+					<div class="action-area">
+						<div class="url-box"><span class="url-text">https://raw.githubusercontent.com/LancelotRar/best-cf-ips/refs/heads/main/best-cf-ip-scanned-top100.txt</span></div>
+						<button class="copy-btn" onclick="copy(this, 'https://raw.githubusercontent.com/LancelotRar/best-cf-ips/refs/heads/main/best-cf-ip-scanned-top100.txt')">复制链接</button>
+					</div>
+				</div>				
+				<div class="link-row">
+					<div class="item-header"><span class="item-title">TOP 200</span></div>
+					<div class="action-area">
+						<div class="url-box"><span class="url-text">https://raw.githubusercontent.com/LancelotRar/best-cf-ips/refs/heads/main/best-cf-ip-scanned-top200.txt</span></div>
+						<button class="copy-btn" onclick="copy(this, 'https://raw.githubusercontent.com/LancelotRar/best-cf-ips/refs/heads/main/best-cf-ip-scanned-top200.txt')">复制链接</button>
+					</div>
+				</div>
+				<div class="link-row">
+					<div class="item-header"><span class="item-title">TOP 400</span></div>
+					<div class="action-area">
+						<div class="url-box"><span class="url-text">https://raw.githubusercontent.com/LancelotRar/best-cf-ips/refs/heads/main/best-cf-ip-scanned-top400.txt</span></div>
+						<button class="copy-btn" onclick="copy(this, 'https://raw.githubusercontent.com/LancelotRar/best-cf-ips/refs/heads/main/best-cf-ip-scanned-top400.txt')">复制链接</button>
+					</div>
+				</div>
+			</div>			
             <div class="group-card">
                 <div class="group-name">Joname<span class="tag">每4小时更新</span><span class="tag">采集聚合</span></div>
                 <div class="link-row">
@@ -997,15 +1033,40 @@
                         <button class="copy-btn" onclick="copy(this, 'https://raw.githubusercontent.com/joname1/BestCFip/refs/heads/main/ipv6.txt')">复制链接</button>
                     </div>
                 </div>
+            </div>				
+            <div class="group-card">
+                <div class="item-header"><span class="item-title">Ahang</span><span class="tag">每日更新</span><span class="tag tag-featured">NEW</span></div>
+                <div class="action-area">
+                    <div class="url-box"><span
+                            class="url-text">https://raw.githubusercontent.com/ahang39/router/refs/heads/main/all.txt</span>
+                    </div>
+                    <button class="copy-btn" onclick="copy(this, 'https://raw.githubusercontent.com/ahang39/router/refs/heads/main/all.txt')">复制链接</button>
+                </div>
+            </div>									
+            <div class="group-card">
+                <div class="item-header"><span class="item-title">Einsitang</span><span class="tag">每小时更新</span><span class="tag">单IP</span></div>
+                <div class="action-area">
+                    <div class="url-box"><span
+                            class="url-text">https://raw.githubusercontent.com/einsitang/my-fast-cf-ip/refs/heads/master/fastips.txt</span></div>
+                    <button class="copy-btn" onclick="copy(this, 'https://raw.githubusercontent.com/einsitang/my-fast-cf-ip/refs/heads/master/fastips.txt')">复制链接</button>
+                </div>
             </div>
             <div class="group-card">
-                <div class="item-header"><span class="item-title">LancelotRar</span><span class="tag">每3小时更新</span><span class="tag">采集聚合</span><span class="tag tag-featured">NEW</span></div>
+                <div class="item-header"><span class="item-title">Hubbylei</span><span class="tag">每小时更新</span><span class="tag">单IP</span></div>
                 <div class="action-area">
-                    <div class="url-box"><span class="url-text">https://raw.githubusercontent.com/LancelotRar/best-cf-ips/refs/heads/main/best-cf-ipv4.txt</span>
-                    </div>
-                    <button class="copy-btn" onclick="copy(this, 'https://raw.githubusercontent.com/LancelotRar/best-cf-ips/refs/heads/main/best-cf-ipv4.txt')">复制链接</button>
+                    <div class="url-box"><span
+                            class="url-text">https://raw.githubusercontent.com/hubbylei/bestcf/refs/heads/main/bestcf.txt</span></div>
+                    <button class="copy-btn" onclick="copy(this, 'https://raw.githubusercontent.com/hubbylei/bestcf/refs/heads/main/bestcf.txt')">复制链接</button>
                 </div>
-            </div>			
+            </div>				
+            <div class="group-card">
+                <div class="item-header"><span class="item-title">天诚 4</span><span class="tag">每2小时更新</span></div>
+                <div class="action-area">
+                    <div class="url-box"><span
+                            class="url-text">https://raw.githubusercontent.com/gshtwy/CF-DNS-Clone/refs/heads/main/wetest-cloudflare-v4.txt</span></div>
+                    <button class="copy-btn" onclick="copy(this, 'https://raw.githubusercontent.com/gshtwy/CF-DNS-Clone/refs/heads/main/wetest-cloudflare-v4.txt')">复制链接</button>
+                </div>
+            </div>
             <div class="group-card">
                 <div class="group-name">Senflare<span class="tag">每3小时更新</span><span class="tag">采集聚合</span><span class="tag tag-featured">NEW</span></div>
                 <div class="link-row">
@@ -1022,7 +1083,7 @@
                         <button class="copy-btn" onclick="copy(this, 'https://raw.githubusercontent.com/Senflare/Senflare-IP/refs/heads/main/Senflare-Pro.txt')">复制链接</button>
                     </div>
                 </div>
-            </div>			
+            </div>
             <div class="group-card">
                 <div class="item-header"><span class="item-title">JieChaoCC</span><span class="tag">每2小时更新</span><span class="tag tag-featured">NEW</span></div>
                 <div class="action-area">
@@ -1031,16 +1092,7 @@
                     </div>
                     <button class="copy-btn" onclick="copy(this, 'https://raw.githubusercontent.com/JieChaoCC/cf-ip-auto/refs/heads/main/data/ipapi.txt')">复制链接</button>
                 </div>
-            </div>
-            <div class="group-card">
-                <div class="item-header"><span class="item-title">Ahang</span><span class="tag">每日更新</span><span class="tag tag-featured">NEW</span></div>
-                <div class="action-area">
-                    <div class="url-box"><span
-                            class="url-text">https://raw.githubusercontent.com/ahang39/router/refs/heads/main/all.txt</span>
-                    </div>
-                    <button class="copy-btn" onclick="copy(this, 'https://raw.githubusercontent.com/ahang39/router/refs/heads/main/all.txt')">复制链接</button>
-                </div>
-            </div>						
+            </div>			
             <div class="group-card">
                 <div class="item-header"><span class="item-title">IRCF</span><span class="tag">每4小时更新</span></div>
                 <div class="action-area">
@@ -1049,30 +1101,23 @@
                     <button class="copy-btn" onclick="copy(this, 'https://bestcf.pages.dev/ircf/ipv4.txt')">复制链接</button>
                 </div>
             </div>
-            <div class="group-card">
-                <div class="item-header"><span class="item-title">Einsitang</span><span class="tag">每小时更新</span><span class="tag">单IP</span></div>
-                <div class="action-area">
-                    <div class="url-box"><span
-                            class="url-text">https://raw.githubusercontent.com/einsitang/my-fast-cf-ip/refs/heads/master/fastips.txt</span></div>
-                    <button class="copy-btn" onclick="copy(this, 'https://raw.githubusercontent.com/einsitang/my-fast-cf-ip/refs/heads/master/fastips.txt')">复制链接</button>
+			<div class="group-card">
+                <div class="group-name">NiREvil<span class="tag">每天下午更新</span><span class="tag">分三网</span></div>
+                <div class="link-row">
+                    <div class="item-header"><span class="item-title">IPv4</span></div>
+                    <div class="action-area">
+                        <div class="url-box"><span class="url-text">https://bestcf.pages.dev/nirevil/ipv4.txt</span></div>
+                        <button class="copy-btn" onclick="copy(this, 'https://bestcf.pages.dev/nirevil/ipv4.txt')">复制链接</button>
+                    </div>
                 </div>
-            </div>
-            <div class="group-card">
-                <div class="item-header"><span class="item-title">Hubbylei</span><span class="tag">每小时更新</span><span class="tag">单IP</span></div>
-                <div class="action-area">
-                    <div class="url-box"><span
-                            class="url-text">https://raw.githubusercontent.com/hubbylei/bestcf/refs/heads/main/bestcf.txt</span></div>
-                    <button class="copy-btn" onclick="copy(this, 'https://raw.githubusercontent.com/hubbylei/bestcf/refs/heads/main/bestcf.txt')">复制链接</button>
+                <div class="link-row">
+                    <div class="item-header"><span class="item-title">IPv6</span></div>
+                    <div class="action-area">
+                        <div class="url-box"><span class="url-text">https://bestcf.pages.dev/nirevil/ipv6.txt</span></div>
+                        <button class="copy-btn" onclick="copy(this, 'https://bestcf.pages.dev/nirevil/ipv6.txt')">复制链接</button>
+                    </div>
                 </div>
-            </div>			
-            <div class="group-card">
-                <div class="item-header"><span class="item-title">天诚 4</span><span class="tag">每2小时更新</span></div>
-                <div class="action-area">
-                    <div class="url-box"><span
-                            class="url-text">https://raw.githubusercontent.com/gshtwy/CF-DNS-Clone/refs/heads/main/wetest-cloudflare-v4.txt</span></div>
-                    <button class="copy-btn" onclick="copy(this, 'https://raw.githubusercontent.com/gshtwy/CF-DNS-Clone/refs/heads/main/wetest-cloudflare-v4.txt')">复制链接</button>
-                </div>
-            </div>			
+            </div>				
             <div class="group-card">
                 <div class="group-name">EDT/WARP 通用段随机优选</div>
                 <div class="link-row">
@@ -1149,7 +1194,7 @@
 				<div class="item-desc">说明：port=自定义端口443/8443/random；ips=自定义IP数量；level=自定义网段，p0-p3合集段从优等到次等，或198/197等具体号段，不同地区/运营商/时段，效果有差异；官方良心没有强制鉴权，不要滥用！WARP其它相关号段，欢迎自测并投稿</div>
             </div>
 			<div class="group-card">
-				<div class="group-name">按地区随机优选<span class="tag">每日更新</span><span class="tag">CM API</span></div>
+				<div class="group-name">按地区随机<span class="tag">每日更新</span><span class="tag">CM API</span></div>
 				<div class="action-area" style="gap: 10px; flex-wrap: wrap; margin-bottom: 12px;">
 					<div class="url-box" style="flex: 2; min-width: 120px; padding: 0 10px;">
 						<select id="randRegionSelect" class="url-text"
@@ -1183,7 +1228,7 @@
 				<div class="item-desc">随机而非实时优选，部分IP落地变化、失效或效果差，不适合日常使用，可临时用于部分限制地区的网站应用或二次优选</div>
 			</div>			
             <div class="group-card">
-                <div class="group-name">按运营商随机优选<span class="tag">CM API</span></div>
+                <div class="group-name">按运营商随机<span class="tag">CM API</span></div>
                 <div class="link-row">
                     <div class="item-header"><span class="item-title">三网</span></div>
                     <div class="action-area">
@@ -1219,7 +1264,7 @@
 				<div class="item-desc">isp=自定义运营商；ips=自定义IP数量</div>
             </div>			
             <div class="group-card">
-                <div class="group-name">按网段随机优选</div>
+                <div class="group-name">按网段随机</div>
 				<div class="link-row">
                     <div class="item-header"><span class="item-title">合集</span></div>
                     <div class="action-area">
@@ -1350,8 +1395,30 @@
                     <button class="copy-btn" onclick="copy(this, 'https://bestcf.pages.dev/entryip/50.txt')">复制链接</button>
                 </div>
             </div>
+			
             <div class="group-card">
-                <div class="item-header"><span class="item-title">Fiatnorm</span><span class="tag">更新异常</span></div>
+                <div class="item-header"><span class="item-title"><del>MoistR</del></span><span class="tag tag-featured">更新异常</span></div>
+                <div class="action-area">
+                    <div class="url-box"><span class="url-text">https://bestcf.pages.dev/moistr/all.txt</span></div>
+                    <button class="copy-btn" onclick="copy(this, 'https://bestcf.pages.dev/moistr/all.txt')">复制链接</button>
+                </div>
+            </div>			
+            <div class="group-card">
+                <div class="item-header"><span class="item-title"><del>Kristi</del></span><span class="tag tag-featured">更新异常</span></div>
+                <div class="action-area">
+                    <div class="url-box"><span class="url-text">https://bestcf.pages.dev/kristi/all.txt</span></div>
+                    <button class="copy-btn" onclick="copy(this, 'https://bestcf.pages.dev/kristi/all.txt')">复制链接</button>
+                </div>
+            </div>
+            <div class="group-card">
+                <div class="item-header"><span class="item-title"><del>YuTian</del></span><span class="tag tag-featured">更新异常</span></div>
+                <div class="action-area">
+                    <div class="url-box"><span class="url-text">https://bestcf.pages.dev/yutian/all.txt</span></div>
+                    <button class="copy-btn" onclick="copy(this, 'https://bestcf.pages.dev/yutian/all.txt')">复制链接</button>
+                </div>
+            </div>			
+            <div class="group-card">
+                <div class="item-header"><span class="item-title"><del>Fiatnorm</del></span><span class="tag tag-featured">更新异常</span></div>
                 <div class="action-area">
                     <div class="url-box"><span class="url-text">https://raw.githubusercontent.com/Fiatnorm/OptiDomain-Pages/refs/heads/main/optimized_cf_ips.txt</span>
                     </div>
@@ -1419,20 +1486,50 @@
                         <button class="copy-btn" onclick="copy(this, 'https://bestcf.pages.dev/tiancheng3/mini.txt')">复制链接</button>
                     </div>
                 </div>
-            </div>	
-            <div class="group-card">
-                <div class="item-header"><span class="item-title">Kristi</span><span class="tag">更新异常</span></div>
-                <div class="action-area">
-                    <div class="url-box"><span class="url-text">https://bestcf.pages.dev/kristi/all.txt</span></div>
-                    <button class="copy-btn" onclick="copy(this, 'https://bestcf.pages.dev/kristi/all.txt')">复制链接</button>
-                </div>
-            </div>
-            <div class="group-card">
-                <div class="item-header"><span class="item-title">YuTian</span><span class="tag">更新异常</span></div>
-                <div class="action-area">
-                    <div class="url-box"><span class="url-text">https://bestcf.pages.dev/yutian/all.txt</span></div>
-                    <button class="copy-btn" onclick="copy(this, 'https://bestcf.pages.dev/yutian/all.txt')">复制链接</button>
-                </div>
+                <!-- <div class="link-row"> -->
+                    <!-- <div class="item-header"><span class="item-title">中国香港 HK</span></div> -->
+                    <!-- <div class="action-area"> -->
+                        <!-- <div class="url-box"><span class="url-text">https://bestcf.pages.dev/tiancheng3/hk.txt</span></div> -->
+                        <!-- <button class="copy-btn" onclick="copy(this, 'https://bestcf.pages.dev/tiancheng3/hk.txt')">复制链接</button> -->
+                    <!-- </div> -->
+                <!-- </div> -->
+                <!-- <div class="link-row"> -->
+                    <!-- <div class="item-header"><span class="item-title">新加坡 SG</span></div> -->
+                    <!-- <div class="action-area"> -->
+                        <!-- <div class="url-box"><span class="url-text">https://bestcf.pages.dev/tiancheng3/sg.txt</span></div> -->
+                        <!-- <button class="copy-btn" onclick="copy(this, 'https://bestcf.pages.dev/tiancheng3/sg.txt')">复制链接</button> -->
+                    <!-- </div> -->
+                <!-- </div> -->
+                <!-- <div class="link-row"> -->
+                    <!-- <div class="item-header"><span class="item-title">日本 JP</span></div> -->
+                    <!-- <div class="action-area"> -->
+                        <!-- <div class="url-box"><span class="url-text">https://bestcf.pages.dev/tiancheng3/jp.txt</span></div> -->
+                        <!-- <button class="copy-btn" onclick="copy(this, 'https://bestcf.pages.dev/tiancheng3/jp.txt')">复制链接</button> -->
+                    <!-- </div> -->
+                <!-- </div> -->
+                <!-- <div class="link-row"> -->
+                    <!-- <div class="item-header"><span class="item-title">韩国 KR</span></div> -->
+                    <!-- <div class="action-area"> -->
+                        <!-- <div class="url-box"><span class="url-text">https://bestcf.pages.dev/tiancheng3/kr.txt</span></div> -->
+                        <!-- <button class="copy-btn" onclick="copy(this, 'https://bestcf.pages.dev/tiancheng3/kr.txt')">复制链接</button> -->
+                    <!-- </div> -->
+                <!-- </div> -->
+                <!-- <div class="link-row"> -->
+                    <!-- <div class="item-header"><span class="item-title">美国 US</span></div> -->
+                    <!-- <div class="action-area"> -->
+                        <!-- <div class="url-box"><span class="url-text">https://bestcf.pages.dev/tiancheng3/us.txt</span></div> -->
+                        <!-- <button class="copy-btn" onclick="copy(this, 'https://bestcf.pages.dev/tiancheng3/us.txt')">复制链接</button> -->
+                    <!-- </div> -->
+                <!-- </div> -->
+                <!-- <div class="link-row"> -->
+                    <!-- <div class="item-header"><span class="item-title">中国台湾 TW</span></div> -->
+                    <!-- <div class="action-area"> -->
+                        <!-- <div class="url-box"><span class="url-text">https://bestcf.pages.dev/tiancheng3/tw.txt</span> -->
+                        <!-- </div> -->
+                        <!-- <button class="copy-btn" -->
+                            <!-- onclick="copy(this, 'https://bestcf.pages.dev/tiancheng3/tw.txt')">复制链接</button> -->
+                    <!-- </div> -->
+                <!-- </div>				 -->
             </div>			
         </section>
 
@@ -1482,13 +1579,13 @@
                     <a href="https://stock.hostmonit.com/CloudFlareYes" class="open-btn" target="_blank">打开链接</a>
                 </div>
             </div>
-            <div class="group-card">
-                <div class="item-header"><span class="item-title">Fiatnorm</span></div>
-                <div class="action-area">
-                    <div class="url-box"><span class="url-text">cdn.fiatnorm.us.kg</span></div>
-                    <a href="https://cdn.fiatnorm.us.kg/" class="open-btn" target="_blank">打开链接</a>
-                </div>
-            </div>
+            <!-- <div class="group-card"> -->
+                <!-- <div class="item-header"><span class="item-title">Fiatnorm</span></div> -->
+                <!-- <div class="action-area"> -->
+                    <!-- <div class="url-box"><span class="url-text">cdn.fiatnorm.us.kg</span></div> -->
+                    <!-- <a href="https://cdn.fiatnorm.us.kg/" class="open-btn" target="_blank">打开链接</a> -->
+                <!-- </div> -->
+            <!-- </div> -->
             <div class="group-card">
                 <div class="item-header"><span class="item-title">vvHan</span></div>
                 <div class="action-area">
@@ -2466,12 +2563,43 @@
         <section id="csgj">
             <h2>测速工具 SpeedTest</h2>
             <div class="group-card">
-                <div class="item-header"><span class="item-title">Ookla</span></div>
+                <div class="item-header"><span class="item-title">SpeedTest</span><span class="tag">Ookla</span></div>
                 <div class="action-area">
                     <div class="url-box"><span class="url-text">www.speedtest.net/zh-Hant</span></div>
                     <a href="https://www.speedtest.net/zh-Hant" class="open-btn" target="_blank">打开链接</a>
                 </div>
             </div>
+			<div class="group-card">
+				<div class="group-name">SpeedTest 企业版<span class="tag">无广告</span><span class="tag tag-featured">NEW</span></div>
+				<div class="link-row">
+					<div class="item-header"><span class="item-title">Cloudflare</span></div>
+					<div class="action-area">
+						<div class="url-box"><span class="url-text">cloudflare.speedtestcustom.com</span></div>
+						<a href="https://cloudflare.speedtestcustom.com" class="open-btn" target="_blank">打开链接</a>
+					</div>
+				</div>
+				<div class="link-row">
+					<div class="item-header"><span class="item-title">Verizon</span></div>
+					<div class="action-area">
+						<div class="url-box"><span class="url-text">verizon.speedtestcustom.com</span></div>
+						<a href="https://verizon.speedtestcustom.com" class="open-btn" target="_blank">打开链接</a>
+					</div>
+				</div>
+				<div class="link-row">
+					<div class="item-header"><span class="item-title">PCMag</span></div>
+					<div class="action-area">
+						<div class="url-box"><span class="url-text">pcmag.speedtestcustom.com</span></div>
+						<a href="https://pcmag.speedtestcustom.com" class="open-btn" target="_blank">打开链接</a>
+					</div>
+				</div>				
+				<div class="link-row">
+					<div class="item-header"><span class="item-title">PlayStation</span></div>
+					<div class="action-area">
+						<div class="url-box"><span class="url-text">playstation.speedtestcustom.com</span></div>
+						<a href="https://playstation.speedtestcustom.com" class="open-btn" target="_blank">打开链接</a>
+					</div>
+				</div>
+			</div>			
             <div class="group-card">
                 <div class="item-header"><span class="item-title">OpenSpeedTest</span></div>
                 <div class="action-area">
@@ -2508,12 +2636,19 @@
                 </div>
             </div>
             <div class="group-card">
+                <div class="item-header"><span class="item-title">nPerf</span></div>
+                <div class="action-area">
+                    <div class="url-box"><span class="url-text">www.nperf.com/zh_CN/</span></div>
+                    <a href="https://www.nperf.com/zh_CN/" class="open-btn" target="_blank">打开链接</a>
+                </div>
+            </div>				
+            <div class="group-card">
                 <div class="item-header"><span class="item-title">CacheFly SpeedTest</span></div>
                 <div class="action-area">
                     <div class="url-box"><span class="url-text">web1.cachefly.net/speedtest/index.html</span></div>
                     <a href="https://web1.cachefly.net/speedtest/index.html" class="open-btn" target="_blank">打开链接</a>
                 </div>
-            </div>
+            </div>		
             <div class="group-card">
                 <div class="item-header"><span class="item-title">中科大测速网站 (测国内)</span></div>
                 <div class="action-area">
@@ -3164,18 +3299,18 @@
                     </div>
                 </div>
                 <div class="link-row">
+                    <div class="item-header"><span class="item-title">FlClash</span></div>
+                    <div class="action-area">
+                        <div class="url-box"><span class="url-text">github.com/chen08209/FlClash</span></div>
+                        <a href="https://github.com/chen08209/FlClash/releases" class="open-btn" target="_blank">打开链接</a>
+                    </div>
+                </div>				
+                <div class="link-row">
                     <div class="item-header"><span class="item-title">Clash Verge Rev</span></div>
                     <div class="action-area">
                         <div class="url-box"><span class="url-text">github.com/clash-verge-rev/clash-verge-rev</span>
                         </div>
                         <a href="https://github.com/clash-verge-rev/clash-verge-rev/releases" class="open-btn" target="_blank">打开链接</a>
-                    </div>
-                </div>
-                <div class="link-row">
-                    <div class="item-header"><span class="item-title">Clash Party</span><span class="tag">含Smart内核</span></div>
-                    <div class="action-area">
-                        <div class="url-box"><span class="url-text">github.com/mihomo-party-org/clash-party</span></div>
-                        <a href="https://github.com/mihomo-party-org/clash-party/releases" class="open-btn" target="_blank">打开链接</a>
                     </div>
                 </div>
                 <div class="link-row">
@@ -3185,6 +3320,13 @@
                         <a href="https://github.com/throneproj/Throne/releases" class="open-btn" target="_blank">打开链接</a>
                     </div>
                 </div>
+                <div class="link-row">
+                    <div class="item-header"><span class="item-title">Clash Party</span><span class="tag">含Smart内核</span></div>
+                    <div class="action-area">
+                        <div class="url-box"><span class="url-text">github.com/mihomo-party-org/clash-party</span></div>
+                        <a href="https://github.com/mihomo-party-org/clash-party/releases" class="open-btn" target="_blank">打开链接</a>
+                    </div>
+                </div>				
                 <div class="link-row">
                     <div class="item-header"><span class="item-title">Sparkle</span></div>
                     <div class="action-area">
@@ -3376,11 +3518,26 @@
                     </div>
                 </div>
                 <div class="link-row">
-                    <div class="item-header"><span class="item-title">Exclave</span></div>
+                    <div class="item-header"><span class="item-title">NekoBox分支</span></div>
                     <div class="action-area">
-                        <div class="url-box"><span class="url-text">github.com/ExclaveNetwork/Exclave</span>
+                        <div class="url-box"><span class="url-text">github.com/starifly/NekoBoxForAndroid</span>
                         </div>
-                        <a href="https://github.com/ExclaveNetwork/Exclave/releases" class="open-btn" target="_blank">打开链接</a>
+                        <a href="https://github.com/starifly/NekoBoxForAndroid/releases" class="open-btn" target="_blank">打开链接</a>
+                    </div>
+                </div>	
+                <div class="link-row">
+                    <div class="item-header"><span class="item-title">Throne (NekoBox)</span></div>
+                    <div class="action-area">
+                        <div class="url-box"><span class="url-text">github.com/throneproj/ThroneForAndroid</span>
+                        </div>
+                        <a href="https://github.com/throneproj/ThroneForAndroid/releases" class="open-btn" target="_blank">打开链接</a>
+                    </div>
+                </div>				
+                <div class="link-row">
+                    <div class="item-header"><span class="item-title">Clash Mi</span></div>
+                    <div class="action-area">
+                        <div class="url-box"><span class="url-text">github.com/KaringX/clashmi</span></div>
+                        <a href="https://github.com/KaringX/clashmi/releases" class="open-btn" target="_blank">打开链接</a>
                     </div>
                 </div>				
                 <div class="link-row">
@@ -3398,10 +3555,11 @@
                     </div>
                 </div>
                 <div class="link-row">
-                    <div class="item-header"><span class="item-title">Meow</span></div>
+                    <div class="item-header"><span class="item-title">Exclave</span></div>
                     <div class="action-area">
-                        <div class="url-box"><span class="url-text">github.com/meow-rs/meow-android</span></div>
-                        <a href="https://github.com/meow-rs/meow-android/releases" class="open-btn" target="_blank">打开链接</a>
+                        <div class="url-box"><span class="url-text">github.com/ExclaveNetwork/Exclave</span>
+                        </div>
+                        <a href="https://github.com/ExclaveNetwork/Exclave/releases" class="open-btn" target="_blank">打开链接</a>
                     </div>
                 </div>				
                 <div class="link-row">
@@ -3425,6 +3583,13 @@
                         <a href="https://github.com/appshubcc/Bettbox/releases" class="open-btn" target="_blank">打开链接</a>
                     </div>
                 </div>
+                <div class="link-row">
+                    <div class="item-header"><span class="item-title">Meow</span><span class="tag">NEW</span></div>
+                    <div class="action-area">
+                        <div class="url-box"><span class="url-text">github.com/meow-rs/meow-android</span></div>
+                        <a href="https://github.com/meow-rs/meow-android/releases" class="open-btn" target="_blank">打开链接</a>
+                    </div>
+                </div>					
                 <div class="link-row">
                     <div class="item-header"><span class="item-title">Slclash</span><span class="tag">NEW</span></div>
                     <div class="action-area">
@@ -3457,7 +3622,8 @@
             </div>
             <div class="group-card">
                 <div id="harmony-up" class="group-name">鸿蒙 HarmonyOS</div>
-				<script>window.addEventListener('load',function(){fetch('https://harmony-up.pages.dev/up2.txt?t='+Date.now()).then(r=>r.ok?r.text():'').then(t=>{var v=t.trim(),el=document.getElementById('harmony-up');if(v&&el){var s=document.createElement('span');s.className='tag tag-featured';var p=v.split('|');var txt='当前总装机量约'+p[0]+'万台';if(p.length>1){txt+= ' 今日+'+p[1]+'万台';}s.textContent=txt;el.appendChild(s);}}).catch(()=>{});});</script>
+				<!-- <script>window.addEventListener('load',function(){fetch('https://harmony-up-2.pages.dev/up2.txt?t='+Date.now()).then(r=>r.ok?r.text():'').then(t=>{var v=t.trim(),el=document.getElementById('harmony-up');if(v&&el){var s=document.createElement('span');s.className='tag tag-featured';var p=v.split('|');var txt='当前总装机量约'+p[0]+'万台';if(p.length>1){txt+= ' 今日+'+p[1]+'万台';}s.textContent=txt;el.appendChild(s);}}).catch(()=>{});});</script> -->
+				<script>window.addEventListener('load',function(){fetch('https://harmony-up-2.pages.dev/up2.txt?t='+Date.now()).then(r=>r.ok?r.text():'').then(t=>{var v=t.trim(),el=document.getElementById('harmony-up');if(v&&el){var s=document.createElement('span');s.className='tag tag-featured';var p=v.split('|');s.textContent='当前总装机量约'+p[0]+'万台';el.appendChild(s);}}).catch(()=>{});});</script>
 				<div class="link-row">
                     <div class="item-header"><span class="item-title">ClashBox (AppGallery免签)</span></div>
                     <div class="action-area">
@@ -3472,6 +3638,13 @@
                         <a href="https://github.com/xiaobaigroup/ClashBox/releases" class="open-btn" target="_blank">打开链接</a>
                     </div>
                 </div>
+                <div class="link-row">
+                    <div class="item-header"><span class="item-title">FlClash-ohos</span><span class="tag tag-featured">NEW</span></div>
+                    <div class="action-area">
+                        <div class="url-box"><span class="url-text">github.com/tljk/FlClash-ohos</span></div>
+                        <a href="https://github.com/tljk/FlClash-ohos/releases" class="open-btn" target="_blank">打开链接</a>
+                    </div>
+                </div>				
                 <div class="link-row">
                     <div class="item-header"><span class="item-title">NekoBox4Harmony</span><span class="tag tag-featured">NEW</span></div>
                     <div class="action-area">
@@ -3618,7 +3791,7 @@
                     </div>
                 </div>				
                 <div class="link-row">
-                    <div class="item-header"><span class="item-title">Throne (Nekoray NekoBox)</span></div>
+                    <div class="item-header"><span class="item-title">Throne (Nekoray)</span></div>
                     <div class="action-area">
                         <div class="url-box"><span class="url-text">github.com/throneproj/Throne</span></div>
                         <a href="https://github.com/throneproj/Throne/releases" class="open-btn" target="_blank">打开链接</a>
@@ -3838,14 +4011,14 @@
                     </div>
                 </div>					
                 <div class="link-row">
-                    <div class="item-header"><span class="item-title">OpenWrt 魔法插件</span><span class="tag">.ipk安装包</span></div>
+                    <div class="item-header"><span class="item-title">OpenWrt 魔法插件</span><span class="tag">.ipk / .apk 安装包</span></div>
                     <div class="action-area">
                         <div class="url-box"><span class="url-text">github.com/kenzok8/openwrt-packages</span></div>
                         <a href="https://github.com/kenzok8/openwrt-packages" class="open-btn" target="_blank">打开链接</a>
                     </div>
                 </div>				
                 <div class="link-row">
-                    <div class="item-header"><span class="item-title">iStoreOS 魔法插件</span><span class="tag">.run安装包</span></div>
+                    <div class="item-header"><span class="item-title">iStoreOS 魔法插件</span><span class="tag">.run 安装包</span></div>
                     <div class="action-area">
                         <div class="url-box"><span class="url-text">github.com/bcseputetto/Are-u-ok</span></div>
                         <a href="https://github.com/bcseputetto/Are-u-ok" class="open-btn" target="_blank">打开链接</a>
@@ -4166,7 +4339,7 @@
     </div>
 <!-- 底部导航 -->
 <script>
-document.addEventListener('DOMContentLoaded',()=>{const nav=document.getElementById('bottomNav'),indicator=document.getElementById('indicator'),items=document.querySelectorAll('.nav-item');function updateIndicator(el){if(!el)return;indicator.style.width=`${el.offsetWidth}px`;indicator.style.left=`${el.offsetLeft}px`;const scrollLeft=el.offsetLeft-(nav.offsetWidth/2)+(el.offsetWidth/2);nav.scrollTo({left:scrollLeft,behavior:'smooth'}); const isTopActive = el.innerText === '顶部' || el.innerText === '刷新';  items[0].innerText = (el === items[0]) ? '刷新' : '顶部';}updateIndicator(document.querySelector('.nav-item.active'));items.forEach((item,index)=>{item.addEventListener('click',function(e){if(index===0&&this.classList.contains('active')){window.location.href='/';return}e.preventDefault();const targetId=this.getAttribute('href'),targetElement=targetId==="#bodyTop"?document.body:document.querySelector(targetId);if(targetElement)targetElement.scrollIntoView({behavior:'smooth'})})});let isTicking=false;window.addEventListener('scroll',()=>{if(!isTicking){window.requestAnimationFrame(()=>{const scrollPos=window.scrollY+window.innerHeight/3;let currentActive=items[0];items.forEach(item=>{const id=item.getAttribute('href');if(id!=="#bodyTop"){const section=document.querySelector(id);if(section&&scrollPos>=section.offsetTop)currentActive=item}});if(!currentActive.classList.contains('active')){items.forEach(i=>i.classList.remove('active'));currentActive.classList.add('active');updateIndicator(currentActive)}isTicking=false});isTicking=true}},{passive:true})});
+document.addEventListener('DOMContentLoaded',()=>{const nav=document.getElementById('bottomNav'),indicator=document.getElementById('indicator'),items=document.querySelectorAll('.nav-item'),refreshBtn=document.getElementById('refreshBtn');refreshBtn.addEventListener('click',()=>{window.location.reload()});function updateIndicator(el){if(!el)return;indicator.style.width=`${el.offsetWidth}px`;indicator.style.left=`${el.offsetLeft}px`;const scrollLeft=el.offsetLeft-(nav.offsetWidth/2)+(el.offsetWidth/2);nav.scrollTo({left:scrollLeft,behavior:'smooth'})}requestAnimationFrame(()=>{requestAnimationFrame(()=>{const scrollPos=window.scrollY+window.innerHeight/3;let currentActive=items[0];items.forEach(item=>{const id=item.getAttribute('href');if(id!=="#bodyTop"){const section=document.querySelector(id);if(section&&scrollPos>=section.offsetTop)currentActive=item}});items.forEach(i=>i.classList.remove('active'));currentActive.classList.add('active');updateIndicator(currentActive)})});items.forEach((item,index)=>{item.addEventListener('click',function(e){e.preventDefault();const targetId=this.getAttribute('href'),targetElement=targetId==="#bodyTop"?document.body:document.querySelector(targetId);if(targetElement)targetElement.scrollIntoView({behavior:'smooth'})})});let isTicking=false;window.addEventListener('scroll',()=>{if(!isTicking){window.requestAnimationFrame(()=>{const scrollPos=window.scrollY+window.innerHeight/3;let currentActive=items[0];items.forEach(item=>{const id=item.getAttribute('href');if(id!=="#bodyTop"){const section=document.querySelector(id);if(section&&scrollPos>=section.offsetTop)currentActive=item}});if(!currentActive.classList.contains('active')){items.forEach(i=>i.classList.remove('active'));currentActive.classList.add('active');updateIndicator(currentActive)}isTicking=false});isTicking=true}},{passive:true})});
 </script>
 <!-- EDT面板 -->
 <script>

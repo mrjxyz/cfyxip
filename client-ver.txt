@@ -12,7 +12,7 @@ Happ-proxy/happ-desktop|4.5.3|2026-10-13
 Juwan-Hwang/Zephyr|2.4.4|2026-08-22
 KaringX/clashmi|1.0.31.1703|2026-10-09
 KaringX/karing|1.2.25.2802|2026-09-10
-Kindness-Kismet/stelliberty|2.0.37|2026-09-30
+Kindness-Kismet/stelliberty|2.0.38|2026-10-14
 Leadaxe/sing-box-lx|1.14.3-lx.20|2026-10-14
 MatsuriDayo/NekoBoxForAndroid|1.4.2|2026-02-09
 MetaCubeX/ClashMetaForAndroid|2.11.35|2026-10-01

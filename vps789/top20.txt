@@ -1,22 +1,22 @@
-162.159.198.1:443#VPS789优选域名 TOP20 | 10-15 11:12 | BestCF.pages.dev
-cfsaas.080112.xyz:443#VPS789优选 | cfsaas.080112.xyz
-cdn.2x.nz:443#VPS789优选 | cdn.2x.nz
-www.oopt.eu.cc:443#VPS789优选 | www.oopt.eu.cc
-ex.warspite.dpdns.org:443#VPS789优选 | ex.warspite.dpdns.org
-cf.xreak.top:443#VPS789优选 | cf.xreak.top
+162.159.198.1:443#VPS789优选域名 TOP20 | 10-17 15:11 | BestCF.pages.dev
 ip.skk.moe:443#VPS789优选 | ip.skk.moe
 cf.godns.cc:443#VPS789优选 | cf.godns.cc
+cfsaas.080112.xyz:443#VPS789优选 | cfsaas.080112.xyz
 cfyx.aliyun.20237737.xyz:443#VPS789优选 | cfyx.aliyun.20237737.xyz
-youxuan.cf.090227.xyz:443#VPS789优选 | youxuan.cf.090227.xyz
-cdn.cf.3666888.xyz:443#VPS789优选 | cdn.cf.3666888.xyz
-imooo.de:443#VPS789优选 | imooo.de
-chinwa.cf.090227.xyz:443#VPS789优选 | chinwa.cf.090227.xyz
-yx.cf.090227.xyz:443#VPS789优选 | yx.cf.090227.xyz
+china-mobile.cname.cloudflare.468123.xyz:443#VPS789优选 | china-mobile.cname.cloudflare.468123.xyz
 ctsg.cfyx.aliyun.20237737.xyz:443#VPS789优选 | ctsg.cfyx.aliyun.20237737.xyz
-cdn.ddeed.de:443#VPS789优选 | cdn.ddeed.de
-yg8.ygkkk.dpdns.org:443#VPS789优选 | yg8.ygkkk.dpdns.org
-china-unicom.cname.cloudflare.468123.xyz:443#VPS789优选 | china-unicom.cname.cloudflare.468123.xyz
-131.youxuan.cf.090227.xyz:443#VPS789优选 | 131.youxuan.cf.090227.xyz
-comet57.cf.090227.xyz:443#VPS789优选 | comet57.cf.090227.xyz
+cf.xreak.top:443#VPS789优选 | cf.xreak.top
 cf-cname.xingpingcn.top:443#VPS789优选 | cf-cname.xingpingcn.top
+youxuan.cf.090227.xyz:443#VPS789优选 | youxuan.cf.090227.xyz
+cfvip.cf.3666888.xyz:443#VPS789优选 | cfvip.cf.3666888.xyz
+www.galgamex.net:443#VPS789优选 | www.galgamex.net
+prompt.gzcrtw.com:443#VPS789优选 | prompt.gzcrtw.com
+cdn.sjzhk.top:443#VPS789优选 | cdn.sjzhk.top
+blog.646474.xyz:443#VPS789优选 | blog.646474.xyz
+jobsdb.com:443#VPS789优选 | jobsdb.com
+cfgo.timelate.com:443#VPS789优选 | cfgo.timelate.com
+cf.090227.xyz:443#VPS789优选 | cf.090227.xyz
+dnew.cc:443#VPS789优选 | dnew.cc
+keji.cf.3666888.xyz:443#VPS789优选 | keji.cf.3666888.xyz
+cfyx.qdqqd.com:443#VPS789优选 | cfyx.qdqqd.com
 162.159.197.1:443#VPS789优选域名 | 分享免费优选网 BestCF.pages.dev

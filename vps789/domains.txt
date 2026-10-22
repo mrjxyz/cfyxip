@@ -123,6 +123,7 @@ aimagazine.com
 down.anycast.mom
 doordash.com
 kinsta.com
+virtualcommtraining.verizon.com
 npmjs.com
 cloudflare.com
 example.com
@@ -130,7 +131,6 @@ aqua-aria.company
 cf.877771.xyz
 aandd.co.jp
 japan.com
-virtualcommtraining.verizon.com
 themeisle.com
 duggal.com
 cdn.555586.xyz
@@ -149,6 +149,7 @@ cu.zxy88.eu.org
 api2-ide.imgnxa.com
 assets.bizclikmedia.net
 royalroad.com
+v.recipes
 mvnrepository.com
 www.redboxtools.com
 cdnjs.loli.net
@@ -173,6 +174,7 @@ investor.apple.com
 codexradar.com
 worldvectorlogo.com
 s.ee
+cf.cloudflare.182682.xyz
 cf.777791.xyz
 gamebanana.com
 curseforge.com
@@ -191,10 +193,8 @@ www.mastervolt.com
 envato.com
 hubspot.com
 uptimerobot.com
+sellerlogic.com
 mogas.com
 resources.biginterview.com
 www.timbuktutravel.com
 www.revechat.com
-youxuan.cf.636949.xyz
-pttime.org
-ikankeji.com

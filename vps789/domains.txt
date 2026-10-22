@@ -62,6 +62,7 @@ greim.no
 www.carousell.sg
 www.blibli.com
 www.vastnovel.com
+prompt.gzcrtw.com
 cdn.ddeed.de
 cf.92555.xyz
 cf.qq.ms
@@ -85,6 +86,7 @@ yg9.ygkkk.dpdns.org
 yg12.ygkkk.dpdns.org
 yg13.ygkkk.dpdns.org
 securecircle.com
+cfplus.255520.xyz
 zen-browser.app
 ct.721660.xyz
 dongbanghong.com
@@ -110,6 +112,7 @@ guide.for.edu.sg
 coreweave.com
 www.jimdo.com
 codeforces.com
+www.crazygames.fr
 www.canadatype.com
 yg5.ygkkk.dpdns.org
 www.sloomb.com
@@ -121,8 +124,8 @@ down.anycast.mom
 doordash.com
 kinsta.com
 npmjs.com
-prompt.gzcrtw.com
 cloudflare.com
+example.com
 aqua-aria.company
 cf.877771.xyz
 aandd.co.jp
@@ -135,6 +138,7 @@ fw8je9.cf.3666888.xyz
 yg3.ygkkk.dpdns.org
 yg4.ygkkk.dpdns.org
 www.sofi.com
+kniu.cc
 www.bangbenjiaju.com
 uspto.gov
 shanghai.mfa.gov.ua
@@ -165,7 +169,6 @@ moondroplab.com
 cfvip.cf.3666888.xyz
 yg1.ygkkk.dpdns.org
 www.broadcom.com
-kniu.cc
 investor.apple.com
 codexradar.com
 worldvectorlogo.com
@@ -173,6 +176,7 @@ s.ee
 cf.777791.xyz
 gamebanana.com
 curseforge.com
+tarkov-market.com
 www.whatismyip.com
 kwiat.com
 hentaiverse.org
@@ -181,7 +185,6 @@ s.bookcdn.com
 ct.090227.xyz
 dash.cloudflare.com
 cloudflare.net
-bestcfv4.030101.xyz
 www.hugedomains.com
 www.jp.pima.gov
 www.mastervolt.com
@@ -195,6 +198,3 @@ www.revechat.com
 youxuan.cf.636949.xyz
 pttime.org
 ikankeji.com
-101yaoye.com
-cmcc.hw.090227.xyz
-cf1.v8.longsays.com

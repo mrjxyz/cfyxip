@@ -1,7 +1,8 @@
-162.159.198.1:443#VPS789优选域名 TOP20 | 10-23 02:41 | BestCF.pages.dev
+162.159.198.1:443#VPS789优选域名 TOP20 | 10-23 03:11 | BestCF.pages.dev
 www.oopt.eu.cc:443#VPS789优选 | www.oopt.eu.cc
 cf.godns.cc:443#VPS789优选 | cf.godns.cc
 cfyx.qdqqd.com:443#VPS789优选 | cfyx.qdqqd.com
+chinwa.cf.090227.xyz:443#VPS789优选 | chinwa.cf.090227.xyz
 cdn.2x.nz:443#VPS789优选 | cdn.2x.nz
 cf.xreak.top:443#VPS789优选 | cf.xreak.top
 666.cf.cname.vvhan.com:443#VPS789优选 | 666.cf.cname.vvhan.com
@@ -18,5 +19,4 @@ ip.skk.moe:443#VPS789优选 | ip.skk.moe
 store.ubi.com:443#VPS789优选 | store.ubi.com
 yg8.ygkkk.dpdns.org:443#VPS789优选 | yg8.ygkkk.dpdns.org
 111.cf.cname.vvhan.com:443#VPS789优选 | 111.cf.cname.vvhan.com
-cf.yj250.bond:443#VPS789优选 | cf.yj250.bond
 162.159.197.1:443#VPS789优选域名 | 分享免费优选网 BestCF.pages.dev

@@ -1,6 +1,7 @@
 www.oopt.eu.cc
 cf.godns.cc
 cfyx.qdqqd.com
+chinwa.cf.090227.xyz
 cdn.2x.nz
 cf.xreak.top
 666.cf.cname.vvhan.com
@@ -19,7 +20,6 @@ yg8.ygkkk.dpdns.org
 111.cf.cname.vvhan.com
 cf.yj250.bond
 cf.090227.xyz
-cmcc.vvvv.ee
 youxuan.cf.090227.xyz
 yg11.ygkkk.dpdns.org
 china-telecom.cname.cloudflare.468123.xyz
@@ -31,6 +31,7 @@ cloudflare.19931110.xyz
 cdns.doon.eu.org
 www.speedtest.net
 staticdelivery.nexusmods.com
+cmcc.vvvv.ee
 linear.app
 cfyx.aliyun.20237737.xyz
 nexusmods.com
@@ -98,6 +99,7 @@ visa.com
 openai.com
 mfa.gov.ua
 cu.877774.xyz
+www.postman.com
 dx.doi.org
 www.wto.org
 guide.for.edu.sg
@@ -113,7 +115,6 @@ aimagazine.com
 down.anycast.mom
 doordash.com
 kinsta.com
-www.postman.com
 npmjs.com
 prompt.gzcrtw.com
 aqua-aria.company
@@ -139,7 +140,6 @@ assets.bizclikmedia.net
 royalroad.com
 mvnrepository.com
 www.redboxtools.com
-chinwa.cf.090227.xyz
 cdnjs.loli.net
 bestcf.top
 cnamefuckxxs.yuchen.icu
@@ -164,6 +164,7 @@ codexradar.com
 worldvectorlogo.com
 s.ee
 cf.777791.xyz
+gamebanana.com
 curseforge.com
 www.whatismyip.com
 kwiat.com
@@ -184,9 +185,9 @@ youxuan.cf.636949.xyz
 pttime.org
 ikankeji.com
 cmcc.hw.090227.xyz
+cf1.v8.longsays.com
 cf.cloudflare.182682.xyz
 codewars.com
-gamebanana.com
 scribblehub.com
 wuxiaworld.com
 cf.legspcpd.top
@@ -197,4 +198,3 @@ www.elysee.fr
 sellerlogic.com
 dexari.com
 rargb.to
-a.pub.network

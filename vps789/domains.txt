@@ -68,6 +68,7 @@ cf.92555.xyz
 cf.qq.ms
 cf.vvhan.com
 lt.1930812.xyz
+cdn.jwcmdr.top
 midjourney.com
 mail.notion.com
 cf-cname.xingpingcn.top
@@ -150,6 +151,7 @@ api2-ide.imgnxa.com
 assets.bizclikmedia.net
 royalroad.com
 v.recipes
+www.npmjs.com
 mvnrepository.com
 www.redboxtools.com
 cdnjs.loli.net
@@ -179,6 +181,7 @@ cf.777791.xyz
 gamebanana.com
 curseforge.com
 tarkov-market.com
+obsidian.md
 www.whatismyip.com
 kwiat.com
 hentaiverse.org
@@ -192,9 +195,6 @@ www.jp.pima.gov
 www.mastervolt.com
 envato.com
 hubspot.com
-uptimerobot.com
 sellerlogic.com
 mogas.com
 resources.biginterview.com
-www.timbuktutravel.com
-www.revechat.com

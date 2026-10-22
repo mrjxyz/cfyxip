@@ -60,6 +60,7 @@ c-power.com.cn
 www.xiaoshuofen.com
 greim.no
 www.carousell.sg
+www.blibli.com
 www.vastnovel.com
 cdn.ddeed.de
 cf.92555.xyz
@@ -112,6 +113,7 @@ codeforces.com
 www.canadatype.com
 yg5.ygkkk.dpdns.org
 www.sloomb.com
+noc.one
 images.chesscomfiles.com
 53.fs1.hubspotusercontent-na1.net
 aimagazine.com
@@ -130,6 +132,7 @@ themeisle.com
 duggal.com
 cdn.555586.xyz
 fw8je9.cf.3666888.xyz
+yg3.ygkkk.dpdns.org
 yg4.ygkkk.dpdns.org
 www.sofi.com
 www.bangbenjiaju.com
@@ -144,7 +147,6 @@ assets.bizclikmedia.net
 royalroad.com
 mvnrepository.com
 www.redboxtools.com
-yg3.ygkkk.dpdns.org
 cdnjs.loli.net
 bestcf.top
 cnamefuckxxs.yuchen.icu
@@ -181,6 +183,7 @@ dash.cloudflare.com
 cloudflare.net
 bestcfv4.030101.xyz
 www.hugedomains.com
+www.jp.pima.gov
 www.mastervolt.com
 envato.com
 hubspot.com
@@ -195,6 +198,3 @@ ikankeji.com
 101yaoye.com
 cmcc.hw.090227.xyz
 cf1.v8.longsays.com
-cf.cloudflare.182682.xyz
-codewars.com
-scribblehub.com

@@ -27,11 +27,12 @@ china-unicom.cname.cloudflare.468123.xyz
 china-mobile.cname.cloudflare.468123.xyz
 yx.cf.090227.xyz
 funko.com
+1.cloudflare.19931110.xyz
 cloudflare.19931110.xyz
+cloudflare-ip.mofashi.ltd
 cdns.doon.eu.org
 www.speedtest.net
 staticdelivery.nexusmods.com
-cmcc.vvvv.ee
 linear.app
 cfyx.aliyun.20237737.xyz
 nexusmods.com
@@ -40,9 +41,9 @@ img.css.sd
 www.nexusmods.com
 wppaunz.com
 cf.468123.xyz
+cloudflare.468123.xyz
 cfgo.timelate.com
 merlin.ns.cloudflare.com
-cloudflare-ip.mofashi.ltd
 zero-trust-client.cloudflareclient.com
 fn.130519.xyz
 da.mfa.gov.ua
@@ -62,12 +63,15 @@ www.carousell.sg
 www.vastnovel.com
 cdn.ddeed.de
 cf.92555.xyz
+cf.qq.ms
 cf.vvhan.com
 lt.1930812.xyz
 midjourney.com
 mail.notion.com
 cf-cname.xingpingcn.top
 www.shopify.com
+cf.130519.xyz
+cmcc.vvvv.ee
 tajikistan.mfa.gov.ua
 cf.3666888.xyz
 www.dentoncounty.gov
@@ -88,7 +92,6 @@ www.akasantech.com
 www.giannidelprete.it
 cfip-ct.stoeaves.us.ci
 play.mc.js.cool
-cf.qq.ms
 warframe.market
 cfip.1323123.xyz
 ping.pe
@@ -117,6 +120,7 @@ doordash.com
 kinsta.com
 npmjs.com
 prompt.gzcrtw.com
+cloudflare.com
 aqua-aria.company
 cf.877771.xyz
 aandd.co.jp
@@ -133,6 +137,7 @@ www.bangbenjiaju.com
 uspto.gov
 shanghai.mfa.gov.ua
 www.trumpinternationalrealty.com
+prizepicks.com
 cfip-avg.stoeaves.us.ci
 cu.zxy88.eu.org
 api2-ide.imgnxa.com
@@ -177,8 +182,10 @@ cloudflare.net
 bestcfv4.030101.xyz
 www.hugedomains.com
 www.mastervolt.com
+envato.com
 hubspot.com
 uptimerobot.com
+mogas.com
 www.timbuktutravel.com
 www.revechat.com
 youxuan.cf.636949.xyz
@@ -191,10 +198,3 @@ codewars.com
 scribblehub.com
 wuxiaworld.com
 cf.legspcpd.top
-xiaoqi.de
-www.visa.com.hk
-www.moc.gov.tw
-www.elysee.fr
-sellerlogic.com
-dexari.com
-rargb.to

@@ -174,12 +174,14 @@ www.redboxtools.com
 worldvectorlogo.com
 codewars.com
 cf.0sm.com
+aandd.co.jp
 japan.com
 www.postman.com
 virtualcommtraining.verizon.com
 vayyar.com
 npmjs.com
 fictiv.com
+www.canadatype.com
 moondroplab.com
 fw8je9.cf.3666888.xyz
 3.cf.3666888.xyz
@@ -196,5 +198,3 @@ scribblehub.com
 tarkov-market.com
 n8n.io
 obsidian.md
-cloudflare.net
-cdn.nodeimage.com

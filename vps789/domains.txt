@@ -150,7 +150,9 @@ www.6i5.com
 53.fs1.hubspotusercontent-na1.net
 a.pub.network
 assets.bizclikmedia.net
+cfip.1323123.xyz
 cloudflare-ip.mofashi.ltd
+ping.pe
 www.shopify.com
 dogechain.info
 dx.doi.org
@@ -164,10 +166,8 @@ zen-browser.app
 db-ip.com
 www.nomios.com
 liz.us.ci
-cfip.1323123.xyz
 visa.com
 zero-trust-client.cloudflareclient.com
-ping.pe
 kwiat.com
 resources.biginterview.com
 www.redboxtools.com

@@ -16,6 +16,7 @@ www.aneko.ink
 ip.skk.moe
 china-unicom.cname.cloudflare.468123.xyz
 www.oopt.eu.cc
+cf.xreak.top
 cdn.aneko.ink
 dianomi.com
 666.cf.cname.vvhan.com
@@ -99,7 +100,6 @@ www.jimdo.com
 test.509666.xyz
 img.css.sd
 111.cf.cname.vvhan.com
-kniu.cc
 cfgo.timelate.com
 www.carousell.sg
 www.vastnovel.com
@@ -136,11 +136,11 @@ cdn.555586.xyz
 7.cf.3666888.xyz
 yg1.ygkkk.dpdns.org
 ikankeji.com
+kniu.cc
 www.blibli.com
 www.giannidelprete.it
 prompt.gzcrtw.com
 funko.com
-assets.bizclikmedia.net
 kinsta.com
 singapore.com
 www.whatismyip.com
@@ -151,6 +151,7 @@ wppaunz.com
 www.6i5.com
 53.fs1.hubspotusercontent-na1.net
 a.pub.network
+assets.bizclikmedia.net
 cfip.1323123.xyz
 cloudflare-ip.mofashi.ltd
 ping.pe
@@ -183,7 +184,6 @@ virtualcommtraining.verizon.com
 vayyar.com
 npmjs.com
 fictiv.com
-www.canadatype.com
 moondroplab.com
 fw8je9.cf.3666888.xyz
 3.cf.3666888.xyz

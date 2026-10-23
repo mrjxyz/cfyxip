@@ -73,7 +73,6 @@ lt.1930812.xyz
 cdn.jwcmdr.top
 midjourney.com
 mail.notion.com
-ping.pe
 cf-cname.xingpingcn.top
 www.shopify.com
 cf.130519.xyz
@@ -101,6 +100,7 @@ cfip-ct.stoeaves.us.ci
 play.mc.js.cool
 warframe.market
 cfip.1323123.xyz
+ping.pe
 9mod.com
 www.government.is
 my.vultr.com
@@ -108,6 +108,7 @@ visa.com
 openai.com
 mfa.gov.ua
 cu.877774.xyz
+japan.com
 www.postman.com
 dx.doi.org
 www.wto.org
@@ -117,6 +118,7 @@ www.jimdo.com
 codeforces.com
 www.crazygames.fr
 www.canadatype.com
+yg1.ygkkk.dpdns.org
 yg5.ygkkk.dpdns.org
 www.sloomb.com
 noc.one
@@ -133,13 +135,12 @@ example.com
 aqua-aria.company
 cf.877771.xyz
 aandd.co.jp
-japan.com
 themeisle.com
 duggal.com
 www.applevis.com
+www.timbuktutravel.com
 cdn.555586.xyz
 fw8je9.cf.3666888.xyz
-yg1.ygkkk.dpdns.org
 yg4.ygkkk.dpdns.org
 www.sofi.com
 kniu.cc
@@ -149,6 +150,7 @@ shanghai.mfa.gov.ua
 www.trumpinternationalrealty.com
 prizepicks.com
 cfip-avg.stoeaves.us.ci
+codexradar.com
 cu.zxy88.eu.org
 api2-ide.imgnxa.com
 assets.bizclikmedia.net
@@ -162,6 +164,7 @@ yg3.ygkkk.dpdns.org
 cdnjs.loli.net
 bestcf.top
 cnamefuckxxs.yuchen.icu
+cloudflare.182682.xyz
 cf.v8.longsays.com
 www.udacity.com
 api.uniapi.io
@@ -173,12 +176,12 @@ networksolutions.com
 uptimerobot.com
 www.ventusky.com
 builtbybuffalo.com
-www.timbuktutravel.com
+resources.biginterview.com
 moondroplab.com
 cfvip.cf.3666888.xyz
 www.broadcom.com
+101yaoye.com
 investor.apple.com
-codexradar.com
 worldvectorlogo.com
 s.ee
 cf.cloudflare.182682.xyz
@@ -186,15 +189,12 @@ cf.777791.xyz
 gamebanana.com
 curseforge.com
 tarkov-market.com
+n8n.io
 obsidian.md
 www.whatismyip.com
 hentaiverse.org
 www.nomios.com
 s.bookcdn.com
-cloudflare.182682.xyz
 ct.090227.xyz
 dash.cloudflare.com
 cloudflare.net
-www.hugedomains.com
-www.jp.pima.gov
-www.mastervolt.com

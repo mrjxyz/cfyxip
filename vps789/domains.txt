@@ -31,6 +31,7 @@ cf1s.cf.3666888.xyz
 123.cf.3666888.xyz
 isp.254301.xyz
 china-telecom.cname.cloudflare.468123.xyz
+cloudflare.468123.xyz
 1.cloudflare.19931110.xyz
 cf.cloudflare.182682.xyz
 cloudflare.19931110.xyz
@@ -46,7 +47,6 @@ yg9.ygkkk.dpdns.org
 www.hdmoli.com
 www.bangbenjiaju.com
 cf.468123.xyz
-cloudflare.468123.xyz
 cfplus.255520.xyz
 www.akasantech.com
 4gxb7l7p40.cloudflare-gateway.com
@@ -149,7 +149,6 @@ help.kolet.com
 wppaunz.com
 53.fs1.hubspotusercontent-na1.net
 a.pub.network
-cfip.1323123.xyz
 cloudflare-ip.mofashi.ltd
 ping.pe
 www.shopify.com
@@ -166,6 +165,7 @@ zen-browser.app
 db-ip.com
 www.nomios.com
 liz.us.ci
+cfip.1323123.xyz
 visa.com
 zero-trust-client.cloudflareclient.com
 kwiat.com

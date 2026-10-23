@@ -55,7 +55,6 @@ lt.1930812.xyz
 coreweave.com
 www.bis.gov
 mail.notion.com
-cf.090227.xyz
 openai.com
 fn.130519.xyz
 store.ubi.com
@@ -76,7 +75,6 @@ china-mobile.cname.cloudflare.468123.xyz
 markmonitor.com
 www.sloomb.com
 cfip-avg.stoeaves.us.ci
-play.mc.js.cool
 cf.qq.ms
 www.deepl.com
 www.zendesk.com
@@ -86,6 +84,7 @@ cf.legspcpd.top
 www.wto.org
 jobsdb.com
 www.sofi.com
+cf.090227.xyz
 www.udacity.com
 cf.877771.xyz
 cu.877774.xyz
@@ -136,10 +135,10 @@ cdn.555586.xyz
 7.cf.3666888.xyz
 yg1.ygkkk.dpdns.org
 ikankeji.com
-kniu.cc
 www.blibli.com
 www.giannidelprete.it
 prompt.gzcrtw.com
+play.mc.js.cool
 funko.com
 kinsta.com
 singapore.com
@@ -153,15 +152,12 @@ www.6i5.com
 a.pub.network
 assets.bizclikmedia.net
 cfip.1323123.xyz
-cloudflare-ip.mofashi.ltd
-ping.pe
 www.shopify.com
 dogechain.info
 dx.doi.org
 mvnrepository.com
 builtbybuffalo.com
 www.doiting.com
-cmcc.hw.090227.xyz
 hzytjy.cn
 uspto.gov
 zen-browser.app
@@ -170,6 +166,7 @@ www.nomios.com
 liz.us.ci
 visa.com
 zero-trust-client.cloudflareclient.com
+ping.pe
 kwiat.com
 resources.biginterview.com
 www.redboxtools.com
@@ -177,6 +174,7 @@ yg3.ygkkk.dpdns.org
 worldvectorlogo.com
 codewars.com
 cf.0sm.com
+cloudflare-ip.mofashi.ltd
 aandd.co.jp
 japan.com
 www.postman.com
@@ -184,11 +182,13 @@ virtualcommtraining.verizon.com
 vayyar.com
 npmjs.com
 fictiv.com
+www.canadatype.com
 moondroplab.com
 fw8je9.cf.3666888.xyz
 3.cf.3666888.xyz
 yg4.ygkkk.dpdns.org
 yg13.ygkkk.dpdns.org
+kniu.cc
 www.mlkj888.com
 ct.hw.090227.xyz
 www.government.is

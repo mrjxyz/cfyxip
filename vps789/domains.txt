@@ -20,11 +20,11 @@ www.dg22.top
 cf.xreak.top
 www.aneko.ink
 cdn.aneko.ink
-yg11.ygkkk.dpdns.org
 cf-cname.xingpingcn.top
 fn.130519.xyz
 cf.3666888.xyz
 www.5h.com
+yg11.ygkkk.dpdns.org
 www.nexusmods.com
 securecircle.com
 www.xiaoshuofen.com
@@ -135,6 +135,7 @@ greim.no
 www.blibli.com
 ct.721660.xyz
 cfip-cm.stoeaves.us.ci
+cf.xycf.asia
 liz.us.ci
 merlin.ns.cloudflare.com
 isp.qzz.io
@@ -149,7 +150,6 @@ ikankeji.com
 www.mlkj888.com
 www.oopt.eu.cc
 cf.qq.ms
-cf.xycf.asia
 video.ouo.chat
 flightradar24.com
 www.mastervolt.com
@@ -194,7 +194,7 @@ visa.com
 cdnjs.com
 www.speedtest.net
 fbi.gov
-www.5199dy.com
 www.doiting.com
 cdnjs.cloudflare.com
 hfqek.cf.3666888.xyz
+visa.com.tw

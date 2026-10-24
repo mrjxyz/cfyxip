@@ -23,7 +23,7 @@ Openwrt-Passwall/openwrt-passwall|26.10.22-2|2026-10-22
 Openwrt-Passwall/openwrt-passwall2|26.10.20-1|2026-10-20
 PhoenixNil/XrayUI-dev|1.19|2026-09-28
 RoperYoung/clash-mihomo-for-haymonyos|2.11.27-meta-harmony-r1|2026-05-25
-SagerNet/sing-box|1.14.3|2026-10-09
+SagerNet/sing-box|1.14.4|2026-10-24
 Sitoi/ClashBar|0.3.6|2026-09-30
 XTLS/Xray-core|26.10.21|2026-10-21
 Zzz-IT/GoclashZ|1.3.3|2026-10-13

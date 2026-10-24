@@ -83,6 +83,7 @@ prompt.gzcrtw.com
 cdn.ddeed.de
 cfip-ct.stoeaves.us.ci
 doordash.com
+cd.cloudflare.19931110.xyz
 kickstarter.com
 www.wto.org
 coreweave.com
@@ -120,7 +121,6 @@ cfip-avg.stoeaves.us.ci
 www.deepl.com
 down.anycast.mom
 cloudflare.seeck.cn
-cd.cloudflare.19931110.xyz
 dianomi.com
 cdn.555586.xyz
 53.fs1.hubspotusercontent-na1.net
@@ -148,7 +148,6 @@ www.hdmoli.com
 ikankeji.com
 www.mlkj888.com
 www.oopt.eu.cc
-prizepicks.com
 cf.qq.ms
 video.ouo.chat
 flightradar24.com
@@ -163,6 +162,7 @@ jp.cf.3666888.xyz
 qocu.cf.3666888.xyz
 img.css.sd
 101yaoye.com
+prizepicks.com
 play.mc.js.cool
 yfvsdf.cf.3666888.xyz
 www.ntu.edu.sg

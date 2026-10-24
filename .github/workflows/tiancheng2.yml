@@ -42,7 +42,7 @@ jobs:
                   }
               )
               # https://sni.skylee4.cloudns.ch/tset   https://sn1.skylee5.cloudns.ch/tset
-              url = "https://google.sosorg.nyc.mn/sub?uuid=00000000-0000-4000-8000-000000000000&host=example.com"
+              url = "https://baidu.sosorg.nyc.mn/sub?uuid=00000000-0000-4000-8000-000000000000&host=example.com"
               try:
                   res = scraper.get(url, timeout=10)
                   if res.status_code == 200:

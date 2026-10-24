@@ -157,7 +157,6 @@ www.bis.gov
 cf.v8.longsays.com
 www.postman.com
 guide.for.edu.sg
-resources.biginterview.com
 jp.cf.3666888.xyz
 qocu.cf.3666888.xyz
 img.css.sd
@@ -168,6 +167,7 @@ yfvsdf.cf.3666888.xyz
 www.ntu.edu.sg
 egov.uscis.gov
 www.npmjs.com
+resources.biginterview.com
 tarkov-market.com
 bestcf.top
 cloudflare.182682.xyz

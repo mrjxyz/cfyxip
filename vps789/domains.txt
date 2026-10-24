@@ -11,6 +11,7 @@ openai.com
 cf.130519.xyz
 cfyx.aliyun.20237737.xyz
 serviceshub.samsclub.com
+www.5h.com
 youxuan.cf.090227.xyz
 vip.cf.3666888.xyz
 yg12.ygkkk.dpdns.org
@@ -20,11 +21,10 @@ www.dg22.top
 cf.xreak.top
 www.aneko.ink
 cdn.aneko.ink
+yg11.ygkkk.dpdns.org
 cf-cname.xingpingcn.top
 fn.130519.xyz
 cf.3666888.xyz
-www.5h.com
-yg11.ygkkk.dpdns.org
 www.nexusmods.com
 securecircle.com
 www.xiaoshuofen.com
@@ -91,11 +91,13 @@ china.mfa.gov.ua
 yg6.ygkkk.dpdns.org
 www.sofi.com
 mail.notion.com
+cf.090227.xyz
 cf.877771.xyz
 staticdelivery.nexusmods.com
 cfvip.cf.3666888.xyz
 123.cf.3666888.xyz
 isp.254301.xyz
+cmcc.hw.090227.xyz
 cf.468123.xyz
 cloudflare.468123.xyz
 1.cloudflare.19931110.xyz
@@ -105,7 +107,6 @@ mfa.gov.ua
 tajikistan.mfa.gov.ua
 virtualcommtraining.verizon.com
 www.zendesk.com
-cf.090227.xyz
 www.udacity.com
 cu.877774.xyz
 cmcc.vvvv.ee
@@ -130,7 +131,6 @@ ahrefs.com
 w3.org
 www.crazygames.fr
 jobsdb.com
-cmcc.hw.090227.xyz
 greim.no
 www.blibli.com
 ct.721660.xyz
@@ -149,6 +149,7 @@ www.hdmoli.com
 ikankeji.com
 www.mlkj888.com
 www.oopt.eu.cc
+play.mc.js.cool
 cf.qq.ms
 video.ouo.chat
 flightradar24.com
@@ -158,18 +159,17 @@ www.bis.gov
 cf.v8.longsays.com
 www.postman.com
 guide.for.edu.sg
+resources.biginterview.com
 jp.cf.3666888.xyz
 qocu.cf.3666888.xyz
 img.css.sd
+kniu.cc
 101yaoye.com
 prizepicks.com
-play.mc.js.cool
 yfvsdf.cf.3666888.xyz
 www.ntu.edu.sg
 egov.uscis.gov
 www.npmjs.com
-resources.biginterview.com
-tarkov-market.com
 bestcf.top
 cloudflare.182682.xyz
 dash.cloudflare.com
@@ -190,6 +190,7 @@ cf.0sm.com
 racerseseries.sky.com
 cdn.sketch.com
 cloudflare.com
+tarkov-market.com
 visa.com
 cdnjs.com
 www.speedtest.net
@@ -197,4 +198,3 @@ fbi.gov
 www.doiting.com
 cdnjs.cloudflare.com
 hfqek.cf.3666888.xyz
-visa.com.tw

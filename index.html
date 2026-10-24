@@ -1118,6 +1118,76 @@
                     </div>
                 </div>
             </div>				
+			<div class="group-card">
+				<div class="group-name">按地区随机<span class="tag">每半小时更新</span><span class="tag">CM API</span></div>
+				<div class="action-area" style="gap: 10px; flex-wrap: wrap; margin-bottom: 12px;">
+					<div class="url-box" style="flex: 2; min-width: 120px; padding: 0 10px;">
+						<select id="randRegionSelect" class="url-text"
+							style="width: 100%; background: transparent; border: none; outline: none; cursor: pointer; color: var(--text-main);">
+							<option value="mix" style="background-color: #f1f5f9; color: #000000;">每个地区随机5个IP</option>
+							<option value="mix2" style="background-color: #f1f5f9; color: #000000;">每个地区随机10个IP</option>
+						</select>
+					</div>
+					<div class="url-box" style="flex: 1; min-width: 80px; padding: 0 10px;">
+						<select id="randCountSelect" class="url-text"
+							style="width: 100%; background: transparent; border: none; outline: none; cursor: pointer; color: var(--text-main);">
+							<option value="10" style="background-color: #f1f5f9; color: #000000;">随机10个</option>
+							<option value="20" style="background-color: #f1f5f9; color: #000000;">随机20个</option>
+							<option value="50" selected style="background-color: #f1f5f9; color: #000000;">随机50个</option>
+							<option value="100" style="background-color: #f1f5f9; color: #000000;">随机100个</option>
+							<option value="all" style="background-color: #f1f5f9; color: #000000;">全部IP</option>
+						</select>
+					</div>
+					<button class="copy-btn" onclick="openRandRegionURL()">预览列表</button>
+				</div>
+				<div class="link-row">
+					<div class="action-area">
+						<div class="url-box" style="flex: 1; padding: 0 10px;">
+							<input type="text" id="rand-url-output" class="url-text" readonly
+								style="width: 100%; background: transparent; border: none; outline: none; color: #94a3b8; opacity: 0.8;"
+								placeholder="加载中...">
+						</div>
+						<button class="copy-btn" id="randRegionCopyBtn" onclick="copyRandRegionURL()">复制链接</button>
+					</div>
+				</div>
+				<div class="item-desc">随机而非实时优选，部分IP落地变化、失效或效果差，不适合日常使用，可临时用于部分限制地区的网站应用或二次优选</div>
+			</div>			
+            <div class="group-card">
+                <div class="group-name">按运营商随机<span class="tag">CM API</span></div>
+                <div class="link-row">
+                    <div class="item-header"><span class="item-title">三网</span></div>
+                    <div class="action-area">
+                        <div class="url-box"><span
+                                class="url-text">https://090227.pages.dev/bestcf?isp=all&ips=20</span></div>
+                        <button class="copy-btn" onclick="copy(this, 'https://090227.pages.dev/bestcf?isp=all&ips=20')">复制链接</button>
+                    </div>
+                </div>
+                <div class="link-row">
+                    <div class="item-header"><span class="item-title">电信</span></div>
+                    <div class="action-area">
+                        <div class="url-box"><span class="url-text">https://090227.pages.dev/bestcf?isp=ct&ips=50</span>
+                        </div>
+                        <button class="copy-btn" onclick="copy(this, 'https://090227.pages.dev/bestcf?isp=ct&ips=50')">复制链接</button>
+                    </div>
+                </div>
+                <div class="link-row">
+                    <div class="item-header"><span class="item-title">联通</span></div>
+                    <div class="action-area">
+                        <div class="url-box"><span class="url-text">https://090227.pages.dev/bestcf?isp=cu&ips=50</span>
+                        </div>
+                        <button class="copy-btn" onclick="copy(this, 'https://090227.pages.dev/bestcf?isp=cu&ips=50')">复制链接</button>
+                    </div>
+                </div>
+                <div class="link-row">
+                    <div class="item-header"><span class="item-title">移动</span></div>
+                    <div class="action-area">
+                        <div class="url-box"><span
+                                class="url-text">https://090227.pages.dev/bestcf?isp=cmcc&ips=50</span></div>
+                        <button class="copy-btn" onclick="copy(this, 'https://090227.pages.dev/bestcf?isp=cmcc&ips=50')">复制链接</button>
+                    </div>
+                </div>
+				<div class="item-desc">isp=自定义运营商；ips=自定义IP数量</div>
+            </div>
             <div class="group-card">
                 <div class="group-name">EDT/WARP 通用段随机优选</div>
                 <div class="link-row">
@@ -1192,76 +1262,6 @@
                     </div>
                 </div>					
 				<div class="item-desc">说明：port=自定义端口443/8443/random；ips=自定义IP数量；level=自定义网段，p0-p3合集段从优等到次等，或198/197等具体号段，不同地区/运营商/时段，效果有差异；官方良心没有强制鉴权，不要滥用！WARP其它相关号段，欢迎自测并投稿</div>
-            </div>
-			<div class="group-card">
-				<div class="group-name">按地区随机<span class="tag">每半小时更新</span><span class="tag">CM API</span></div>
-				<div class="action-area" style="gap: 10px; flex-wrap: wrap; margin-bottom: 12px;">
-					<div class="url-box" style="flex: 2; min-width: 120px; padding: 0 10px;">
-						<select id="randRegionSelect" class="url-text"
-							style="width: 100%; background: transparent; border: none; outline: none; cursor: pointer; color: var(--text-main);">
-							<option value="mix" style="background-color: #f1f5f9; color: #000000;">每个地区随机5个IP</option>
-							<option value="mix2" style="background-color: #f1f5f9; color: #000000;">每个地区随机10个IP</option>
-						</select>
-					</div>
-					<div class="url-box" style="flex: 1; min-width: 80px; padding: 0 10px;">
-						<select id="randCountSelect" class="url-text"
-							style="width: 100%; background: transparent; border: none; outline: none; cursor: pointer; color: var(--text-main);">
-							<option value="10" style="background-color: #f1f5f9; color: #000000;">随机10个</option>
-							<option value="20" style="background-color: #f1f5f9; color: #000000;">随机20个</option>
-							<option value="50" selected style="background-color: #f1f5f9; color: #000000;">随机50个</option>
-							<option value="100" style="background-color: #f1f5f9; color: #000000;">随机100个</option>
-							<option value="all" style="background-color: #f1f5f9; color: #000000;">全部IP</option>
-						</select>
-					</div>
-					<button class="copy-btn" onclick="openRandRegionURL()">预览列表</button>
-				</div>
-				<div class="link-row">
-					<div class="action-area">
-						<div class="url-box" style="flex: 1; padding: 0 10px;">
-							<input type="text" id="rand-url-output" class="url-text" readonly
-								style="width: 100%; background: transparent; border: none; outline: none; color: #94a3b8; opacity: 0.8;"
-								placeholder="加载中...">
-						</div>
-						<button class="copy-btn" id="randRegionCopyBtn" onclick="copyRandRegionURL()">复制链接</button>
-					</div>
-				</div>
-				<div class="item-desc">随机而非实时优选，部分IP落地变化、失效或效果差，不适合日常使用，可临时用于部分限制地区的网站应用或二次优选</div>
-			</div>			
-            <div class="group-card">
-                <div class="group-name">按运营商随机<span class="tag">CM API</span></div>
-                <div class="link-row">
-                    <div class="item-header"><span class="item-title">三网</span></div>
-                    <div class="action-area">
-                        <div class="url-box"><span
-                                class="url-text">https://090227.pages.dev/bestcf?isp=all&ips=20</span></div>
-                        <button class="copy-btn" onclick="copy(this, 'https://090227.pages.dev/bestcf?isp=all&ips=20')">复制链接</button>
-                    </div>
-                </div>
-                <div class="link-row">
-                    <div class="item-header"><span class="item-title">电信</span></div>
-                    <div class="action-area">
-                        <div class="url-box"><span class="url-text">https://090227.pages.dev/bestcf?isp=ct&ips=50</span>
-                        </div>
-                        <button class="copy-btn" onclick="copy(this, 'https://090227.pages.dev/bestcf?isp=ct&ips=50')">复制链接</button>
-                    </div>
-                </div>
-                <div class="link-row">
-                    <div class="item-header"><span class="item-title">联通</span></div>
-                    <div class="action-area">
-                        <div class="url-box"><span class="url-text">https://090227.pages.dev/bestcf?isp=cu&ips=50</span>
-                        </div>
-                        <button class="copy-btn" onclick="copy(this, 'https://090227.pages.dev/bestcf?isp=cu&ips=50')">复制链接</button>
-                    </div>
-                </div>
-                <div class="link-row">
-                    <div class="item-header"><span class="item-title">移动</span></div>
-                    <div class="action-area">
-                        <div class="url-box"><span
-                                class="url-text">https://090227.pages.dev/bestcf?isp=cmcc&ips=50</span></div>
-                        <button class="copy-btn" onclick="copy(this, 'https://090227.pages.dev/bestcf?isp=cmcc&ips=50')">复制链接</button>
-                    </div>
-                </div>
-				<div class="item-desc">isp=自定义运营商；ips=自定义IP数量</div>
             </div>			
             <div class="group-card">
                 <div class="group-name">按网段随机</div>

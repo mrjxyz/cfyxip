@@ -180,7 +180,7 @@ jobs:
               cp "$OLD_FILE" "tiancheng2/old/$(TZ='Asia/Shanghai' date +%Y-%m-%d-%H_%M_%S).txt"
             fi
             
-            rm -f tiancheng2/hk.txt tiancheng2/sg.txt tiancheng2/jp.txt tiancheng2/tw.txt tiancheng2/kr.txt tiancheng2/us.txt
+            rm -f tiancheng2/hk.txt tiancheng2/sg.txt tiancheng2/jp.txt tiancheng2/tw.txt tiancheng2/kr.txt tiancheng2/us.txt tiancheng2/de.txt
 
             # 生成 All 版
             echo "162.159.198.1:443#天诚优选2 全量版 | ${BJ_TIME} | BestCF.pages.dev" > "tiancheng2/all.txt"
@@ -195,7 +195,7 @@ jobs:
             echo "$FOOTER" >> "tiancheng2/mini.txt"
 
             # 生成分地区版
-            for loc in HK SG JP TW KR US; do
+            for loc in HK SG JP TW KR US DE; do
               f=$(echo "$loc" | tr '[:upper:]' '[:lower:]')
               if grep -q "| ${loc}" new_nodes.tmp 2>/dev/null; then
                 echo "162.159.198.1:443#天诚优选2 ${loc}版 | ${BJ_TIME} | BestCF.pages.dev" > "tiancheng2/${f}.txt"

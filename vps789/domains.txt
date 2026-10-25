@@ -171,6 +171,7 @@ encryptedsni.com
 npmjs.com
 53.fs1.hubspotusercontent-na1.net
 www.udacity.com
+zabc.net
 store.ubi.com
 www.elysee.fr
 keji.cf.3666888.xyz
@@ -178,13 +179,13 @@ jp.cf.3666888.xyz
 8.cf.3666888.xyz
 101yaoye.com
 crypto.cloudflare.com
+worldvectorlogo.com
 registry.npmjs.org
 images.chesscomfiles.com
 www.zendesk.com
 wuxiaworld.com
 cf.0sm.com
 icook.tw
-zabc.net
 dango.co
 blog.cloudflare.com
 example.com
@@ -197,4 +198,3 @@ sunkist.com
 themeisle.com
 carpt.net
 yg4.ygkkk.dpdns.org
-c-power.com.cn

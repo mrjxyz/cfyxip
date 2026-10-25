@@ -122,7 +122,9 @@ kniu.cc
 greim.no
 www.blibli.com
 www.dg22.top
+cf.cloudflare.182682.xyz
 cdn.jwcmdr.top
+1.cf.636949.xyz
 serviceshub.samsclub.com
 cdn.555586.xyz
 ct.090227.xyz
@@ -133,12 +135,11 @@ www.vmware.com
 www.crazygames.fr
 adnjv.cf.3666888.xyz
 cf.553314.xyz
-cf.cloudflare.182682.xyz
-1.cf.636949.xyz
 www.jp.pima.gov
 china.mfa.gov.ua
 zero-trust-client.cloudflareclient.com
 cf.v8.longsays.com
+www.hypixel.net
 hitcon.org
 cdnjs.cloudflare.com
 hk.cf.3666888.xyz
@@ -147,7 +148,6 @@ qocu.cf.3666888.xyz
 yg5.ygkkk.dpdns.org
 www.carousell.sg
 cloudflare.seeck.cn
-www.hypixel.net
 egov.uscis.gov
 ct.721660.xyz
 lt.zhuqq.qzz.io
@@ -165,11 +165,11 @@ prizepicks.com
 cf.qq.ms
 img.856518.xyz
 my.vultr.com
+aimagazine.com
 coreweave.com
 encryptedsni.com
 npmjs.com
 53.fs1.hubspotusercontent-na1.net
-aimagazine.com
 www.udacity.com
 store.ubi.com
 www.elysee.fr
@@ -178,9 +178,9 @@ jp.cf.3666888.xyz
 8.cf.3666888.xyz
 101yaoye.com
 crypto.cloudflare.com
-worldvectorlogo.com
 registry.npmjs.org
 images.chesscomfiles.com
+www.dbs.com.sg
 www.zendesk.com
 cf.cf.636949.xyz
 wuxiaworld.com
@@ -188,10 +188,10 @@ cf.0sm.com
 icook.tw
 zabc.net
 dango.co
+worldvectorlogo.com
 blog.cloudflare.com
 example.com
 fonts.cdnfonts.com
-cloudflare-ip.mofashi.ltd
 dash.cloudflare.com
 cmcc.877774.xyz
 ncdc.gov.ng

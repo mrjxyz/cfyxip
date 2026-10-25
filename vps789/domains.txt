@@ -132,6 +132,7 @@ www.vmware.com
 www.crazygames.fr
 adnjv.cf.3666888.xyz
 cf.553314.xyz
+cf.cloudflare.182682.xyz
 1.cf.636949.xyz
 www.jp.pima.gov
 china.mfa.gov.ua
@@ -146,12 +147,10 @@ qocu.cf.3666888.xyz
 yg5.ygkkk.dpdns.org
 www.carousell.sg
 lt.zhuqq.qzz.io
-cf.cloudflare.182682.xyz
 cloudflare.seeck.cn
 egov.uscis.gov
 tinyurl.com
 ct.721660.xyz
-my.vultr.com
 mail.notion.com
 cloudflare-ip.mofashi.ltd
 cloudflare.net
@@ -165,11 +164,14 @@ hzytjy.cn
 prizepicks.com
 cf.qq.ms
 img.856518.xyz
+my.vultr.com
+aimagazine.com
 coreweave.com
 encryptedsni.com
 npmjs.com
 53.fs1.hubspotusercontent-na1.net
 www.udacity.com
+store.ubi.com
 www.elysee.fr
 keji.cf.3666888.xyz
 jp.cf.3666888.xyz
@@ -179,7 +181,6 @@ crypto.cloudflare.com
 registry.npmjs.org
 images.chesscomfiles.com
 www.zendesk.com
-aimagazine.com
 wuxiaworld.com
 cf.0sm.com
 icook.tw
@@ -190,7 +191,6 @@ example.com
 fonts.cdnfonts.com
 dash.cloudflare.com
 cmcc.877774.xyz
-store.ubi.com
 ncdc.gov.ng
 academy.7shifts.com
 sunkist.com

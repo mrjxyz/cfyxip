@@ -21,10 +21,10 @@ www.dg22.top
 cf.xreak.top
 www.aneko.ink
 cdn.aneko.ink
-yg11.ygkkk.dpdns.org
 cf-cname.xingpingcn.top
 fn.130519.xyz
 cf.3666888.xyz
+yg11.ygkkk.dpdns.org
 www.nexusmods.com
 securecircle.com
 www.xiaoshuofen.com
@@ -42,6 +42,7 @@ funko.com
 cdns.doon.eu.org
 www.shopify.com
 ip.skk.moe
+cmcc.vvvv.ee
 linear.app
 blog.raindew.576555.xyz
 gh-proxy.com
@@ -53,6 +54,7 @@ m.iyf.tv
 yg9.ygkkk.dpdns.org
 yg13.ygkkk.dpdns.org
 111.cf.cname.vvhan.com
+cmcc.hw.090227.xyz
 china-mobile.cname.cloudflare.468123.xyz
 cfgo.timelate.com
 www.gov.il
@@ -73,7 +75,6 @@ eteaf.cf.3666888.xyz
 7.cf.3666888.xyz
 10.cf.3666888.xyz
 test.509666.xyz
-cmcc.hw.090227.xyz
 ct.hw.090227.xyz
 uspto.gov
 china-telecom.cname.cloudflare.468123.xyz
@@ -100,6 +101,7 @@ cfvip.cf.3666888.xyz
 isp.254301.xyz
 cf.468123.xyz
 cloudflare.468123.xyz
+play.mc.js.cool
 1.cloudflare.19931110.xyz
 4gxb7l7p40.cloudflare-gateway.com
 cloudflare.19931110.xyz
@@ -110,7 +112,6 @@ www.zendesk.com
 cloudflare-ip.mofashi.ltd
 www.udacity.com
 cu.877774.xyz
-cmcc.vvvv.ee
 spring.io
 www.sage.com
 cdn.cf.3666888.xyz
@@ -120,7 +121,6 @@ cf1s.cf.3666888.xyz
 cf.553314.xyz
 cfip-avg.stoeaves.us.ci
 cfip-cu.stoeaves.us.ci
-play.mc.js.cool
 www.deepl.com
 down.anycast.mom
 cloudflare.seeck.cn
@@ -131,6 +131,7 @@ ahrefs.com
 w3.org
 www.crazygames.fr
 jobsdb.com
+kniu.cc
 greim.no
 www.blibli.com
 ct.721660.xyz
@@ -142,13 +143,11 @@ isp.qzz.io
 ct.090227.xyz
 shanghai.mfa.gov.ua
 bestcf.030101.xyz
-store.ubi.com
 sanwang.cf.3666888.xyz
 uac.cf.3666888.xyz
 8.cf.3666888.xyz
 www.hdmoli.com
 ikankeji.com
-kniu.cc
 www.mlkj888.com
 www.oopt.eu.cc
 cf.qq.ms
@@ -158,9 +157,9 @@ www.mastervolt.com
 npmjs.com
 www.bis.gov
 cf.v8.longsays.com
+store.ubi.com
 www.postman.com
 guide.for.edu.sg
-resources.biginterview.com
 jp.cf.3666888.xyz
 qocu.cf.3666888.xyz
 img.css.sd
@@ -170,8 +169,8 @@ yfvsdf.cf.3666888.xyz
 www.ntu.edu.sg
 egov.uscis.gov
 www.npmjs.com
+resources.biginterview.com
 bestcf.top
-cloudflare.182682.xyz
 dash.cloudflare.com
 t.213891.xyz
 dnew.cc
@@ -191,10 +190,11 @@ racerseseries.sky.com
 cdn.sketch.com
 cloudflare.com
 tarkov-market.com
+cloudflare.182682.xyz
 visa.com
+zero-trust-client.cloudflareclient.com
 cdnjs.com
 www.speedtest.net
 fbi.gov
-www.doiting.com
 cdnjs.cloudflare.com
 hfqek.cf.3666888.xyz
